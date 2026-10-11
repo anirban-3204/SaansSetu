@@ -1,0 +1,1372 @@
+{
+  "town_id": "asansol",
+  "name": "Asansol",
+  "state": "West Bengal",
+  "station": {
+    "station_id": "site_1418",
+    "name": "Asansol Court Area, Asansol",
+    "lat": 23.685297,
+    "lon": 86.945968
+  },
+  "plant": {
+    "name": "Plant area",
+    "lat": 23.666669,
+    "lon": 86.917919
+  },
+  "school": {
+    "school_id": "school-1",
+    "name": "St. Vincent High School",
+    "starts_at": "08:00",
+    "lat": 23.681476,
+    "lon": 86.95579
+  },
+  "home_area": {
+    "name": "Pasupati Complex",
+    "lat": 23.682611,
+    "lon": 86.945188
+  },
+  "usual_departure": {
+    "route_id": "sb-gorai-road",
+    "leave": "07:20"
+  },
+  "routes": [
+    {
+      "route_id": "sb-gorai-road",
+      "name": "SB gorai road",
+      "name_hi": "SB gorai road",
+      "road": "main",
+      "is_usual": true
+    },
+    {
+      "route_id": "dharmapally-main-rd",
+      "name": "Dharmapally Main Rd",
+      "name_hi": "Dharmapally Main Rd",
+      "road": "local",
+      "is_usual": false
+    }
+  ],
+  "segments_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-01",
+          "route_id": "sb-gorai-road",
+          "order": 1
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.945046,
+              23.682732
+            ],
+            [
+              86.94524,
+              23.682923
+            ],
+            [
+              86.945358,
+              23.682822
+            ],
+            [
+              86.945567,
+              23.682674
+            ],
+            [
+              86.94569,
+              23.682586
+            ],
+            [
+              86.945792,
+              23.682526
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-02",
+          "route_id": "sb-gorai-road",
+          "order": 2
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.945792,
+              23.682526
+            ],
+            [
+              86.946067,
+              23.682364
+            ],
+            [
+              86.946171,
+              23.682299
+            ],
+            [
+              86.946189,
+              23.682319
+            ],
+            [
+              86.946287,
+              23.682426
+            ],
+            [
+              86.946312,
+              23.682512
+            ],
+            [
+              86.946336,
+              23.682577
+            ],
+            [
+              86.946382,
+              23.682652
+            ],
+            [
+              86.946425,
+              23.682714
+            ],
+            [
+              86.946429,
+              23.68272
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-03",
+          "route_id": "sb-gorai-road",
+          "order": 3
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.946429,
+              23.68272
+            ],
+            [
+              86.946687,
+              23.6831
+            ],
+            [
+              86.946921,
+              23.683415
+            ],
+            [
+              86.946968,
+              23.683478
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-04",
+          "route_id": "sb-gorai-road",
+          "order": 4
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.946968,
+              23.683478
+            ],
+            [
+              86.946981,
+              23.683495
+            ],
+            [
+              86.947024,
+              23.683534
+            ],
+            [
+              86.947078,
+              23.683565
+            ],
+            [
+              86.94714,
+              23.683591
+            ],
+            [
+              86.947196,
+              23.68362
+            ],
+            [
+              86.947249,
+              23.683654
+            ],
+            [
+              86.947289,
+              23.683687
+            ],
+            [
+              86.94754,
+              23.683946
+            ],
+            [
+              86.94763,
+              23.684039
+            ],
+            [
+              86.947676,
+              23.684094
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-05",
+          "route_id": "sb-gorai-road",
+          "order": 5
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.947676,
+              23.684094
+            ],
+            [
+              86.947773,
+              23.68421
+            ],
+            [
+              86.948509,
+              23.683862
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-06",
+          "route_id": "sb-gorai-road",
+          "order": 6
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.948509,
+              23.683862
+            ],
+            [
+              86.948538,
+              23.683849
+            ],
+            [
+              86.948639,
+              23.684117
+            ],
+            [
+              86.948664,
+              23.684208
+            ],
+            [
+              86.948676,
+              23.684281
+            ],
+            [
+              86.948708,
+              23.684572
+            ],
+            [
+              86.948798,
+              23.684577
+            ],
+            [
+              86.948851,
+              23.68458
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-07",
+          "route_id": "sb-gorai-road",
+          "order": 7
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.948851,
+              23.68458
+            ],
+            [
+              86.948972,
+              23.684587
+            ],
+            [
+              86.949055,
+              23.684587
+            ],
+            [
+              86.949132,
+              23.684576
+            ],
+            [
+              86.949218,
+              23.684539
+            ],
+            [
+              86.949321,
+              23.684494
+            ],
+            [
+              86.949409,
+              23.684466
+            ],
+            [
+              86.949504,
+              23.684444
+            ],
+            [
+              86.949802,
+              23.684383
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-08",
+          "route_id": "sb-gorai-road",
+          "order": 8
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.949802,
+              23.684383
+            ],
+            [
+              86.950055,
+              23.684331
+            ],
+            [
+              86.950131,
+              23.684784
+            ],
+            [
+              86.950182,
+              23.684988
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-09",
+          "route_id": "sb-gorai-road",
+          "order": 9
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.950182,
+              23.684988
+            ],
+            [
+              86.950193,
+              23.68503
+            ],
+            [
+              86.950225,
+              23.685165
+            ],
+            [
+              86.950362,
+              23.685486
+            ],
+            [
+              86.950398,
+              23.68557
+            ],
+            [
+              86.950421,
+              23.685624
+            ],
+            [
+              86.950505,
+              23.685841
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-10",
+          "route_id": "sb-gorai-road",
+          "order": 10
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.950505,
+              23.685841
+            ],
+            [
+              86.950526,
+              23.685894
+            ],
+            [
+              86.950602,
+              23.686084
+            ],
+            [
+              86.951304,
+              23.686019
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-11",
+          "route_id": "sb-gorai-road",
+          "order": 11
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.951304,
+              23.686019
+            ],
+            [
+              86.951876,
+              23.685966
+            ],
+            [
+              86.951848,
+              23.686014
+            ],
+            [
+              86.952107,
+              23.685996
+            ],
+            [
+              86.952159,
+              23.685992
+            ],
+            [
+              86.952199,
+              23.686
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-12",
+          "route_id": "sb-gorai-road",
+          "order": 12
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.952199,
+              23.686
+            ],
+            [
+              86.95226,
+              23.686012
+            ],
+            [
+              86.952322,
+              23.686046
+            ],
+            [
+              86.952381,
+              23.686119
+            ],
+            [
+              86.952433,
+              23.686213
+            ],
+            [
+              86.952515,
+              23.686406
+            ],
+            [
+              86.952553,
+              23.686526
+            ],
+            [
+              86.952584,
+              23.686591
+            ],
+            [
+              86.952643,
+              23.686655
+            ],
+            [
+              86.952729,
+              23.686714
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-13",
+          "route_id": "sb-gorai-road",
+          "order": 13
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.952729,
+              23.686714
+            ],
+            [
+              86.9529,
+              23.686831
+            ],
+            [
+              86.952816,
+              23.686933
+            ],
+            [
+              86.9529,
+              23.686831
+            ],
+            [
+              86.953196,
+              23.686467
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-14",
+          "route_id": "sb-gorai-road",
+          "order": 14
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.953196,
+              23.686467
+            ],
+            [
+              86.95352,
+              23.686069
+            ],
+            [
+              86.953794,
+              23.685747
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-15",
+          "route_id": "sb-gorai-road",
+          "order": 15
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.953794,
+              23.685747
+            ],
+            [
+              86.953992,
+              23.685516
+            ],
+            [
+              86.954467,
+              23.685087
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-16",
+          "route_id": "sb-gorai-road",
+          "order": 16
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.954467,
+              23.685087
+            ],
+            [
+              86.954618,
+              23.68495
+            ],
+            [
+              86.954857,
+              23.684734
+            ],
+            [
+              86.955172,
+              23.684454
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-17",
+          "route_id": "sb-gorai-road",
+          "order": 17
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.955172,
+              23.684454
+            ],
+            [
+              86.955233,
+              23.6844
+            ],
+            [
+              86.955274,
+              23.68437
+            ],
+            [
+              86.955553,
+              23.684162
+            ],
+            [
+              86.955727,
+              23.684031
+            ],
+            [
+              86.955938,
+              23.683883
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-18",
+          "route_id": "sb-gorai-road",
+          "order": 18
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.955938,
+              23.683883
+            ],
+            [
+              86.956169,
+              23.683721
+            ],
+            [
+              86.956442,
+              23.68353
+            ],
+            [
+              86.95661,
+              23.683412
+            ],
+            [
+              86.956702,
+              23.683347
+            ],
+            [
+              86.956684,
+              23.68333
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-19",
+          "route_id": "sb-gorai-road",
+          "order": 19
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.956684,
+              23.68333
+            ],
+            [
+              86.955993,
+              23.682684
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-20",
+          "route_id": "sb-gorai-road",
+          "order": 20
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.955993,
+              23.682684
+            ],
+            [
+              86.955302,
+              23.682038
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "sb-gorai-road-21",
+          "route_id": "sb-gorai-road",
+          "order": 21
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.955302,
+              23.682038
+            ],
+            [
+              86.955252,
+              23.681991
+            ],
+            [
+              86.955181,
+              23.681784
+            ],
+            [
+              86.955191,
+              23.681652
+            ],
+            [
+              86.955292,
+              23.681527
+            ],
+            [
+              86.955528,
+              23.681272
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-01",
+          "route_id": "dharmapally-main-rd",
+          "order": 1
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.945046,
+              23.682732
+            ],
+            [
+              86.94524,
+              23.682923
+            ],
+            [
+              86.945358,
+              23.682822
+            ],
+            [
+              86.945567,
+              23.682674
+            ],
+            [
+              86.94569,
+              23.682586
+            ],
+            [
+              86.94581,
+              23.682515
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-02",
+          "route_id": "dharmapally-main-rd",
+          "order": 2
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.94581,
+              23.682515
+            ],
+            [
+              86.946067,
+              23.682364
+            ],
+            [
+              86.946171,
+              23.682299
+            ],
+            [
+              86.946189,
+              23.682319
+            ],
+            [
+              86.946287,
+              23.682426
+            ],
+            [
+              86.946367,
+              23.682494
+            ],
+            [
+              86.946442,
+              23.68254
+            ],
+            [
+              86.946513,
+              23.682568
+            ],
+            [
+              86.946581,
+              23.682579
+            ],
+            [
+              86.946633,
+              23.682576
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-03",
+          "route_id": "dharmapally-main-rd",
+          "order": 3
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.946633,
+              23.682576
+            ],
+            [
+              86.946775,
+              23.682568
+            ],
+            [
+              86.947118,
+              23.682506
+            ],
+            [
+              86.947171,
+              23.68249
+            ],
+            [
+              86.947558,
+              23.682374
+            ],
+            [
+              86.94761,
+              23.682358
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-04",
+          "route_id": "dharmapally-main-rd",
+          "order": 4
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.94761,
+              23.682358
+            ],
+            [
+              86.947772,
+              23.68231
+            ],
+            [
+              86.947949,
+              23.682257
+            ],
+            [
+              86.948254,
+              23.682166
+            ],
+            [
+              86.948388,
+              23.682142
+            ],
+            [
+              86.948472,
+              23.682127
+            ],
+            [
+              86.948581,
+              23.682112
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-05",
+          "route_id": "dharmapally-main-rd",
+          "order": 5
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.948581,
+              23.682112
+            ],
+            [
+              86.948744,
+              23.682089
+            ],
+            [
+              86.948952,
+              23.682057
+            ],
+            [
+              86.949165,
+              23.682019
+            ],
+            [
+              86.949256,
+              23.682003
+            ],
+            [
+              86.949279,
+              23.681997
+            ],
+            [
+              86.94957,
+              23.68193
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-06",
+          "route_id": "dharmapally-main-rd",
+          "order": 6
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.94957,
+              23.68193
+            ],
+            [
+              86.94988,
+              23.681858
+            ],
+            [
+              86.950549,
+              23.681703
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-07",
+          "route_id": "dharmapally-main-rd",
+          "order": 7
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.950549,
+              23.681703
+            ],
+            [
+              86.950617,
+              23.681687
+            ],
+            [
+              86.950832,
+              23.681612
+            ],
+            [
+              86.951471,
+              23.681389
+            ],
+            [
+              86.951494,
+              23.681379
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-08",
+          "route_id": "dharmapally-main-rd",
+          "order": 8
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.951494,
+              23.681379
+            ],
+            [
+              86.951842,
+              23.681236
+            ],
+            [
+              86.952232,
+              23.681083
+            ],
+            [
+              86.952355,
+              23.68101
+            ],
+            [
+              86.952396,
+              23.681047
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-09",
+          "route_id": "dharmapally-main-rd",
+          "order": 9
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.952396,
+              23.681047
+            ],
+            [
+              86.952498,
+              23.681138
+            ],
+            [
+              86.952607,
+              23.681237
+            ],
+            [
+              86.952847,
+              23.681453
+            ],
+            [
+              86.952992,
+              23.681584
+            ],
+            [
+              86.953116,
+              23.681695
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-10",
+          "route_id": "dharmapally-main-rd",
+          "order": 10
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.953116,
+              23.681695
+            ],
+            [
+              86.953379,
+              23.681933
+            ],
+            [
+              86.95382,
+              23.682358
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-11",
+          "route_id": "dharmapally-main-rd",
+          "order": 11
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.95382,
+              23.682358
+            ],
+            [
+              86.954044,
+              23.682574
+            ],
+            [
+              86.954295,
+              23.682816
+            ],
+            [
+              86.954515,
+              23.683028
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-12",
+          "route_id": "dharmapally-main-rd",
+          "order": 12
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.954515,
+              23.683028
+            ],
+            [
+              86.954645,
+              23.683154
+            ],
+            [
+              86.954929,
+              23.683469
+            ],
+            [
+              86.955167,
+              23.683734
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-13",
+          "route_id": "dharmapally-main-rd",
+          "order": 13
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.955167,
+              23.683734
+            ],
+            [
+              86.95522,
+              23.683793
+            ],
+            [
+              86.955553,
+              23.684162
+            ],
+            [
+              86.955727,
+              23.684031
+            ],
+            [
+              86.955868,
+              23.683932
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-14",
+          "route_id": "dharmapally-main-rd",
+          "order": 14
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.955868,
+              23.683932
+            ],
+            [
+              86.956169,
+              23.683721
+            ],
+            [
+              86.956442,
+              23.68353
+            ],
+            [
+              86.95661,
+              23.683412
+            ],
+            [
+              86.95667,
+              23.68337
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-15",
+          "route_id": "dharmapally-main-rd",
+          "order": 15
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.95667,
+              23.68337
+            ],
+            [
+              86.956702,
+              23.683347
+            ],
+            [
+              86.956024,
+              23.682713
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-16",
+          "route_id": "dharmapally-main-rd",
+          "order": 16
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.956024,
+              23.682713
+            ],
+            [
+              86.955317,
+              23.682052
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "dharmapally-main-rd-17",
+          "route_id": "dharmapally-main-rd",
+          "order": 17
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              86.955317,
+              23.682052
+            ],
+            [
+              86.955252,
+              23.681991
+            ],
+            [
+              86.955181,
+              23.681784
+            ],
+            [
+              86.955191,
+              23.681652
+            ],
+            [
+              86.955292,
+              23.681527
+            ],
+            [
+              86.955528,
+              23.681272
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "geometry_note": "Routes follow OpenStreetMap roads: walking paths from the OSRM routing service (FOSSGIS) between hand-picked points."
+}

@@ -1,0 +1,6 @@
+{
+  "town_id": "thirdburg",
+  "name": "Thirdburg",
+  "state": "Elsewhere",
+  "station": {"station_id": "site_300", "name": "Mock Hill, Thirdburg", "lat": 20.84, "lon": 85.1}
+}

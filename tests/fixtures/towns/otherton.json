@@ -1,0 +1,7 @@
+{
+  "town_id": "otherton",
+  "name": "Otherton",
+  "state": "Elsewhere",
+  "station": {"station_id": "site_200", "name": "Mock North, Otherton", "lat": 22.227, "lon": 84.861},
+  "alert_label": "poor"
+}

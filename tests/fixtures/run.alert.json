@@ -1,0 +1,886 @@
+{
+  "schema_version": "0.1",
+  "is_sample": true,
+  "town_id": "bhilai",
+  "run_id": "bhilai-2025-01-14T06:30+05:30",
+  "mode": "replay",
+  "clock": {
+    "now": "2025-01-14T06:30+05:30",
+    "replay_of": "2025-01-14",
+    "replay_speed": 60
+  },
+  "status": "ok",
+  "status_message": null,
+  "station": {
+    "latest": {
+      "time": "2025-01-14T06:00+05:30",
+      "pm25": 88,
+      "pm10": 150,
+      "no2": 38,
+      "so2": 14,
+      "co": 1.1,
+      "band": "moderate"
+    },
+    "age_minutes": 30,
+    "is_stale": false,
+    "stale_after_minutes": 120,
+    "official_24h": {
+      "pm25_avg": 68.3,
+      "band": "moderate",
+      "note": "What the public city AQI badge reflects: a 24-hour average"
+    },
+    "history_24h": [
+      {
+        "time": "2025-01-13T07:00+05:30",
+        "pm25": 71,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-13T08:00+05:30",
+        "pm25": 78,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-13T09:00+05:30",
+        "pm25": 84,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-13T10:00+05:30",
+        "pm25": 81,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-13T11:00+05:30",
+        "pm25": 74,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-13T12:00+05:30",
+        "pm25": 67,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-13T13:00+05:30",
+        "pm25": 61,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-13T14:00+05:30",
+        "pm25": 55,
+        "band": "satisfactory"
+      },
+      {
+        "time": "2025-01-13T15:00+05:30",
+        "pm25": 50,
+        "band": "satisfactory"
+      },
+      {
+        "time": "2025-01-13T16:00+05:30",
+        "pm25": 47,
+        "band": "satisfactory"
+      },
+      {
+        "time": "2025-01-13T17:00+05:30",
+        "pm25": 45,
+        "band": "satisfactory"
+      },
+      {
+        "time": "2025-01-13T18:00+05:30",
+        "pm25": 46,
+        "band": "satisfactory"
+      },
+      {
+        "time": "2025-01-13T19:00+05:30",
+        "pm25": 49,
+        "band": "satisfactory"
+      },
+      {
+        "time": "2025-01-13T20:00+05:30",
+        "pm25": 55,
+        "band": "satisfactory"
+      },
+      {
+        "time": "2025-01-13T21:00+05:30",
+        "pm25": 63,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-13T22:00+05:30",
+        "pm25": 72,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-13T23:00+05:30",
+        "pm25": 79,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-14T00:00+05:30",
+        "pm25": null,
+        "band": null
+      },
+      {
+        "time": "2025-01-14T01:00+05:30",
+        "pm25": 82,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-14T02:00+05:30",
+        "pm25": 80,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-14T03:00+05:30",
+        "pm25": 79,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-14T04:00+05:30",
+        "pm25": 81,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-14T05:00+05:30",
+        "pm25": 85,
+        "band": "moderate"
+      },
+      {
+        "time": "2025-01-14T06:00+05:30",
+        "pm25": 88,
+        "band": "moderate"
+      }
+    ]
+  },
+  "weather": {
+    "now": {
+      "time": "2025-01-14T06:00+05:30",
+      "wind_speed_ms": 1.1,
+      "wind_from_deg": 75,
+      "wind_from": "ENE",
+      "mixing_height_m": 140,
+      "temperature_c": 13.5,
+      "humidity_pct": 82
+    },
+    "forecast_available": true,
+    "forecast": [
+      {
+        "time": "2025-01-14T07:00+05:30",
+        "wind_speed_ms": 1.4,
+        "wind_from_deg": 75,
+        "wind_from": "ENE",
+        "mixing_height_m": 160
+      },
+      {
+        "time": "2025-01-14T08:00+05:30",
+        "wind_speed_ms": 1.7,
+        "wind_from_deg": 75,
+        "wind_from": "ENE",
+        "mixing_height_m": 230
+      },
+      {
+        "time": "2025-01-14T09:00+05:30",
+        "wind_speed_ms": 2.0,
+        "wind_from_deg": 75,
+        "wind_from": "ENE",
+        "mixing_height_m": 420
+      },
+      {
+        "time": "2025-01-14T10:00+05:30",
+        "wind_speed_ms": 2.3,
+        "wind_from_deg": 75,
+        "wind_from": "ENE",
+        "mixing_height_m": 760
+      }
+    ]
+  },
+  "forecast": {
+    "issued_at": "2025-01-14T06:30+05:30",
+    "based_on_reading_at": "2025-01-14T06:00+05:30",
+    "feature_set": "fut",
+    "feature_set_note": "fut = used the weather forecast; now = weather forecast unavailable, used current weather only",
+    "hours": [
+      {
+        "time": "2025-01-14T07:00+05:30",
+        "horizon_h": 1,
+        "p50": 94,
+        "p95": 121,
+        "band_p50": "poor",
+        "band_p95": "very_poor",
+        "chance": {
+          "moderate": 0.97,
+          "poor": 0.58,
+          "very_poor": 0.1
+        }
+      },
+      {
+        "time": "2025-01-14T08:00+05:30",
+        "horizon_h": 2,
+        "p50": 100,
+        "p95": 132,
+        "band_p50": "poor",
+        "band_p95": "very_poor",
+        "chance": {
+          "moderate": 0.98,
+          "poor": 0.71,
+          "very_poor": 0.19
+        }
+      },
+      {
+        "time": "2025-01-14T09:00+05:30",
+        "horizon_h": 3,
+        "p50": 90,
+        "p95": 124,
+        "band_p50": "moderate",
+        "band_p95": "very_poor",
+        "chance": {
+          "moderate": 0.94,
+          "poor": 0.49,
+          "very_poor": 0.12
+        }
+      },
+      {
+        "time": "2025-01-14T10:00+05:30",
+        "horizon_h": 4,
+        "p50": 76,
+        "p95": 108,
+        "band_p50": "moderate",
+        "band_p95": "poor",
+        "chance": {
+          "moderate": 0.79,
+          "poor": 0.24,
+          "very_poor": 0.04
+        }
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step": "ingest",
+      "status": "ok",
+      "detail": "Latest reading 06:00, 30 min old"
+    },
+    {
+      "step": "forecast",
+      "status": "ok",
+      "detail": "With weather forecast; covers 3 of 3 school hours"
+    },
+    {
+      "step": "exposure",
+      "status": "ok",
+      "detail": "12 segments x 8 time slots"
+    },
+    {
+      "step": "departure",
+      "status": "ok",
+      "detail": "16 options compared"
+    },
+    {
+      "step": "alert",
+      "status": "sent",
+      "detail": "saving_and_chance"
+    }
+  ],
+  "slots": [
+    "06:45",
+    "07:00",
+    "07:15",
+    "07:30",
+    "07:45",
+    "08:00",
+    "08:15",
+    "08:30"
+  ],
+  "routes": [
+    {
+      "route_id": "plant-gate",
+      "name": "Plant Gate Rd",
+      "summary": {
+        "mean_pm25": [
+          109,
+          114,
+          122,
+          133,
+          139,
+          137,
+          125,
+          115
+        ],
+        "worst_pm25": [
+          118,
+          123,
+          132,
+          142,
+          148,
+          147,
+          134,
+          124
+        ],
+        "worst_band": [
+          "poor",
+          "very_poor",
+          "very_poor",
+          "very_poor",
+          "very_poor",
+          "very_poor",
+          "very_poor",
+          "very_poor"
+        ],
+        "peak": {
+          "time": "07:45",
+          "pm25": 148,
+          "band": "very_poor"
+        }
+      },
+      "segments": [
+        {
+          "segment_id": "plant-gate-01",
+          "pm25": [
+            99,
+            104,
+            112,
+            123,
+            129,
+            126,
+            115,
+            105
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "poor",
+            "poor"
+          ]
+        },
+        {
+          "segment_id": "plant-gate-02",
+          "pm25": [
+            102,
+            107,
+            115,
+            126,
+            132,
+            130,
+            118,
+            108
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "poor",
+            "poor"
+          ]
+        },
+        {
+          "segment_id": "plant-gate-03",
+          "pm25": [
+            109,
+            114,
+            123,
+            133,
+            139,
+            137,
+            125,
+            115
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "poor"
+          ]
+        },
+        {
+          "segment_id": "plant-gate-04",
+          "pm25": [
+            118,
+            123,
+            132,
+            142,
+            148,
+            147,
+            134,
+            124
+          ],
+          "band": [
+            "poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor"
+          ]
+        },
+        {
+          "segment_id": "plant-gate-05",
+          "pm25": [
+            115,
+            121,
+            129,
+            140,
+            146,
+            144,
+            132,
+            122
+          ],
+          "band": [
+            "poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor"
+          ]
+        },
+        {
+          "segment_id": "plant-gate-06",
+          "pm25": [
+            109,
+            114,
+            122,
+            133,
+            139,
+            137,
+            125,
+            115
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "very_poor",
+            "poor"
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "station-rd",
+      "name": "Station Rd",
+      "summary": {
+        "mean_pm25": [
+          100,
+          102,
+          106,
+          111,
+          114,
+          114,
+          108,
+          103
+        ],
+        "worst_pm25": [
+          103,
+          106,
+          110,
+          114,
+          117,
+          118,
+          112,
+          107
+        ],
+        "worst_band": [
+          "poor",
+          "poor",
+          "poor",
+          "poor",
+          "poor",
+          "poor",
+          "poor",
+          "poor"
+        ],
+        "peak": {
+          "time": "08:00",
+          "pm25": 118,
+          "band": "poor"
+        }
+      },
+      "segments": [
+        {
+          "segment_id": "station-rd-01",
+          "pm25": [
+            98,
+            100,
+            104,
+            108,
+            111,
+            112,
+            106,
+            101
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor"
+          ]
+        },
+        {
+          "segment_id": "station-rd-02",
+          "pm25": [
+            98,
+            101,
+            105,
+            109,
+            112,
+            112,
+            107,
+            102
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor"
+          ]
+        },
+        {
+          "segment_id": "station-rd-03",
+          "pm25": [
+            99,
+            101,
+            105,
+            110,
+            113,
+            113,
+            107,
+            102
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor"
+          ]
+        },
+        {
+          "segment_id": "station-rd-04",
+          "pm25": [
+            100,
+            102,
+            106,
+            111,
+            114,
+            114,
+            108,
+            103
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor"
+          ]
+        },
+        {
+          "segment_id": "station-rd-05",
+          "pm25": [
+            101,
+            103,
+            107,
+            112,
+            115,
+            115,
+            110,
+            105
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor"
+          ]
+        },
+        {
+          "segment_id": "station-rd-06",
+          "pm25": [
+            103,
+            106,
+            110,
+            114,
+            117,
+            118,
+            112,
+            107
+          ],
+          "band": [
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor",
+            "poor"
+          ]
+        }
+      ]
+    }
+  ],
+  "departures": {
+    "school_starts_at": "08:00",
+    "dose_unit": "ug/m3 x minutes",
+    "options": [
+      {
+        "route_id": "plant-gate",
+        "leave": "07:00",
+        "arrive": "07:33",
+        "minutes": 33,
+        "dose": 4026,
+        "avg_pm25": 123,
+        "peak_pm25": 136,
+        "peak_band": "very_poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "plant-gate",
+        "leave": "07:05",
+        "arrive": "07:38",
+        "minutes": 33,
+        "dose": 4130,
+        "avg_pm25": 127,
+        "peak_pm25": 140,
+        "peak_band": "very_poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "plant-gate",
+        "leave": "07:10",
+        "arrive": "07:43",
+        "minutes": 33,
+        "dose": 4232,
+        "avg_pm25": 130,
+        "peak_pm25": 143,
+        "peak_band": "very_poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "plant-gate",
+        "leave": "07:15",
+        "arrive": "07:48",
+        "minutes": 33,
+        "dose": 4324,
+        "avg_pm25": 133,
+        "peak_pm25": 145,
+        "peak_band": "very_poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "plant-gate",
+        "leave": "07:20",
+        "arrive": "07:53",
+        "minutes": 33,
+        "dose": 4399,
+        "avg_pm25": 135,
+        "peak_pm25": 147,
+        "peak_band": "very_poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "plant-gate",
+        "leave": "07:25",
+        "arrive": "07:58",
+        "minutes": 33,
+        "dose": 4453,
+        "avg_pm25": 137,
+        "peak_pm25": 148,
+        "peak_band": "very_poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "plant-gate",
+        "leave": "07:30",
+        "arrive": "08:03",
+        "minutes": 33,
+        "dose": 4481,
+        "avg_pm25": 137,
+        "peak_pm25": 149,
+        "peak_band": "very_poor",
+        "arrives_on_time": false
+      },
+      {
+        "route_id": "plant-gate",
+        "leave": "07:35",
+        "arrive": "08:08",
+        "minutes": 33,
+        "dose": 4474,
+        "avg_pm25": 137,
+        "peak_pm25": 148,
+        "peak_band": "very_poor",
+        "arrives_on_time": false
+      },
+      {
+        "route_id": "station-rd",
+        "leave": "07:00",
+        "arrive": "07:30",
+        "minutes": 30,
+        "dose": 3164,
+        "avg_pm25": 106,
+        "peak_pm25": 113,
+        "peak_band": "poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "station-rd",
+        "leave": "07:05",
+        "arrive": "07:35",
+        "minutes": 30,
+        "dose": 3205,
+        "avg_pm25": 108,
+        "peak_pm25": 115,
+        "peak_band": "poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "station-rd",
+        "leave": "07:10",
+        "arrive": "07:40",
+        "minutes": 30,
+        "dose": 3246,
+        "avg_pm25": 109,
+        "peak_pm25": 116,
+        "peak_band": "poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "station-rd",
+        "leave": "07:15",
+        "arrive": "07:45",
+        "minutes": 30,
+        "dose": 3285,
+        "avg_pm25": 110,
+        "peak_pm25": 117,
+        "peak_band": "poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "station-rd",
+        "leave": "07:20",
+        "arrive": "07:50",
+        "minutes": 30,
+        "dose": 3320,
+        "avg_pm25": 111,
+        "peak_pm25": 117,
+        "peak_band": "poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "station-rd",
+        "leave": "07:25",
+        "arrive": "07:55",
+        "minutes": 30,
+        "dose": 3348,
+        "avg_pm25": 112,
+        "peak_pm25": 118,
+        "peak_band": "poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "station-rd",
+        "leave": "07:30",
+        "arrive": "08:00",
+        "minutes": 30,
+        "dose": 3369,
+        "avg_pm25": 113,
+        "peak_pm25": 118,
+        "peak_band": "poor",
+        "arrives_on_time": true
+      },
+      {
+        "route_id": "station-rd",
+        "leave": "07:35",
+        "arrive": "08:05",
+        "minutes": 30,
+        "dose": 3379,
+        "avg_pm25": 113,
+        "peak_pm25": 117,
+        "peak_band": "poor",
+        "arrives_on_time": false
+      }
+    ],
+    "usual": {
+      "route_id": "plant-gate",
+      "leave": "07:20",
+      "arrive": "07:53",
+      "minutes": 33,
+      "dose": 4399,
+      "avg_pm25": 135,
+      "peak_pm25": 147,
+      "peak_band": "very_poor",
+      "arrives_on_time": true
+    },
+    "best": {
+      "route_id": "station-rd",
+      "leave": "07:00",
+      "arrive": "07:30",
+      "minutes": 30,
+      "dose": 3164,
+      "avg_pm25": 106,
+      "peak_pm25": 113,
+      "peak_band": "poor",
+      "arrives_on_time": true
+    },
+    "saving_vs_usual_pct": 28,
+    "saving_from_route_change_only_pct": 25
+  },
+  "alert": {
+    "decision": "send",
+    "reason_code": "saving_and_chance",
+    "reason": "Best option cuts dose by 28% and the chance of poor during school hours is 71%.",
+    "rule": {
+      "min_saving_pct": 20,
+      "min_chance": 0.6,
+      "label": "poor"
+    },
+    "message": {
+      "en": "Plant Gate Rd will likely turn Very Poor around 7:45. Take Station Rd, and leave by 7:00.",
+      "hi": "प्लांट गेट रोड पर लगभग 7:45 बजे हवा बहुत खराब होने की संभावना है। स्टेशन रोड से जाएँ, और 7:00 तक निकलें।"
+    },
+    "sent_at": "2025-01-14T06:30+05:30",
+    "channel": "telegram",
+    "recipients": 42,
+    "school_flag": {
+      "outdoor_pt": "move_indoors",
+      "assembly": "move_indoors",
+      "reason": "71% chance of poor air between 07:00 and 09:00"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "town_id": "angul",
+  "name": "Angul",
+  "state": "Odisha",
+  "station": {
+    "station_id": "site_5939",
+    "name": "Hakimapada, Angul",
+    "lat": 20.832874,
+    "lon": 85.104082
+  },
+  "alert_label": "poor"
+}

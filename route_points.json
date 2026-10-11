@@ -1,0 +1,37 @@
+{
+  "how_to_fill": [
+    "Every 'at' and 'via' is 'lat, lon'. In Google Maps: right-click the spot, click the numbers to copy.",
+    "The first route is the usual one. 'via' is one or more points ON the road that route uses, in walking order.",
+    "'road' is main or local. 'name' is the road name a parent would recognise. 'name_hi' is optional.",
+    "The air station for Asansol is at 23.685297, 86.945968 (Asansol Court Area, Asansol). Pick a school within a few km of it: the forecast is for the air there."
+  ],
+  "school": {
+    "name": "St. Vincent High School",
+    "at": "23.681476236156605, 86.95579048388757"
+  },
+  "plant": {
+    "at": "23.666669156779733, 86.91791877143177"
+  },
+  "home": {
+    "name": "Pasupati Complex",
+    "at": "23.682611263829465, 86.94518801233156"
+  },
+  "routes": [
+    {
+      "name": "SB gorai road",
+      "name_hi": "",
+      "road": "main",
+      "via": [
+        "23.686949705071633, 86.9528398957497"
+      ]
+    },
+    {
+      "name": "Dharmapally Main Rd",
+      "name_hi": "",
+      "road": "local",
+      "via": [
+        "23.682088183465222, 86.94918048663438"
+      ]
+    }
+  ]
+}

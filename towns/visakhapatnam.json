@@ -1,0 +1,12 @@
+{
+  "town_id": "visakhapatnam",
+  "name": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "station": {
+    "station_id": "site_260",
+    "name": "GVM Corporation, Visakhapatnam",
+    "lat": 17.72,
+    "lon": 83.3
+  },
+  "alert_label": "poor"
+}

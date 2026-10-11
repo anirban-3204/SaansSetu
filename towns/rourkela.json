@@ -1,0 +1,12 @@
+{
+  "town_id": "rourkela",
+  "name": "Rourkela",
+  "state": "Odisha",
+  "station": {
+    "station_id": "site_5675",
+    "name": "Raghunathpali, Rourkela",
+    "lat": 22.220833,
+    "lon": 84.809444
+  },
+  "alert_label": "poor"
+}
