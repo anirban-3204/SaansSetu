@@ -3,7 +3,7 @@
 **Air alerts for the walk to school, one route at a time.**
 
 *SaansSetu* was built for Environmental Hacks (AWS × WeMakeDevs Bharat Builds
-Tour, 8–11 October 2026), Air track, by team Axiom: Anirban (ML and backend) and Manideep (dashboard and deployment).
+Tour, 8–11 October 2026), Air track, by team Axiom: Manideep(dashboard and deployment) and  Anirban (ML and backend).
 
 ## The problem
 
