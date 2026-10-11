@@ -1,0 +1,5 @@
+# Runner Lambda. boto3 is already in the AWS base image.
+# Use the lightgbm version that trained the models: it is recorded in out*/<station>/config.json.
+lightgbm
+pandas
+numpy

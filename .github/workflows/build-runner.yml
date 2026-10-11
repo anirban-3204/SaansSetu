@@ -1,0 +1,17 @@
+name: Build runner image
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: us-east-1
+    steps:
+      - name: Fetch the build files deploy_aws.py uploaded
+        run: aws s3 cp s3://saanssetu-build-347179352382-us-east-1/runner-context/context.zip ctx.zip
+      - name: Build, test one tick inside the image, push
+        run: |
+          unzip -q ctx.zip -d ctx
+          bash ctx/build.sh
