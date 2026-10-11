@@ -142,7 +142,7 @@ not something a four-day event allows.
 
 ## Live
 
-- Dashboard:  https://main.dad6cxz1027iv.amplifyapp.co
+- Dashboard:  https://main.dad6cxz1027iv.amplifyapp.com
 - API: https://kdjfx4q26zcoy7xgb63c5wge3m0ywzsu.lambda-url.us-east-1.on.aws/towns
 
 The dashboard always has a real morning to show: 7 December 2024 was replayed into the table through the same code
