@@ -1,0 +1,260 @@
+{
+  "station_id": "site_260",
+  "station": "GVM Corporation, Visakhapatnam - APPCB",
+  "test": [
+    "2024-10-01",
+    "2025-02-28"
+  ],
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "quantiles": {
+    "p50": 0.5,
+    "p95": 0.95
+  },
+  "school_hours": [
+    7,
+    8,
+    9
+  ],
+  "alert_cases": {
+    "fresh_6am": 6,
+    "lagged_5am": 5
+  },
+  "target": "change",
+  "bad_case": "p95",
+  "predict_level": "expm1(booster.predict(X[features]) + log1p(X.pm25_lag0)); then p95 = max(p95, p50)",
+  "predict_chance": "np.interp(booster.predict(X[features]), knots.x, knots.y) with knots from calibration.json",
+  "labels": [
+    "moderate",
+    "poor",
+    "very_poor"
+  ],
+  "label_thresholds": {
+    "moderate": 61.0,
+    "poor": 91.0,
+    "very_poor": 121.0
+  },
+  "suggested_label": "moderate",
+  "winter_school_morning_rate": {
+    "moderate": 0.634,
+    "poor": 0.313,
+    "very_poor": 0.139
+  },
+  "train_hours": 40187,
+  "models": {
+    "fut": {
+      "p50_h1": {
+        "best_iter": 427
+      },
+      "p95_h1": {
+        "best_iter": 403
+      },
+      "features": [
+        "pm25_lag0",
+        "pm25_lag1",
+        "pm25_lag2",
+        "pm25_lag3",
+        "pm25_lag6",
+        "pm25_lag12",
+        "pm25_lag24",
+        "pm25_same_hour_yday",
+        "pm25_same_hour_lastwk",
+        "pm25_mean3",
+        "pm25_mean6",
+        "pm25_mean24",
+        "pm25_slope3",
+        "pm10_now",
+        "no2_now",
+        "co_now",
+        "so2_now",
+        "pm_ratio",
+        "target_hour",
+        "target_dow",
+        "doy_sin",
+        "doy_cos",
+        "ws_now",
+        "u_now",
+        "v_now",
+        "blh_now",
+        "t2m_now",
+        "rh_now",
+        "rain_now",
+        "cloud_now",
+        "psfc_now",
+        "dewdep_now",
+        "vent_now",
+        "ws_fut",
+        "u_fut",
+        "v_fut",
+        "blh_fut",
+        "t2m_fut",
+        "rh_fut",
+        "rain_fut",
+        "cloud_fut",
+        "psfc_fut",
+        "dewdep_fut",
+        "vent_fut",
+        "blh_change"
+      ],
+      "chance_moderate_h1": {
+        "best_iter": 201
+      },
+      "chance_poor_h1": {
+        "best_iter": 133
+      },
+      "chance_very_poor_h1": {
+        "best_iter": 149
+      },
+      "p50_h2": {
+        "best_iter": 604
+      },
+      "p95_h2": {
+        "best_iter": 459
+      },
+      "chance_moderate_h2": {
+        "best_iter": 318
+      },
+      "chance_poor_h2": {
+        "best_iter": 160
+      },
+      "chance_very_poor_h2": {
+        "best_iter": 81
+      },
+      "p50_h3": {
+        "best_iter": 553
+      },
+      "p95_h3": {
+        "best_iter": 389
+      },
+      "chance_moderate_h3": {
+        "best_iter": 255
+      },
+      "chance_poor_h3": {
+        "best_iter": 91
+      },
+      "chance_very_poor_h3": {
+        "best_iter": 66
+      },
+      "p50_h4": {
+        "best_iter": 510
+      },
+      "p95_h4": {
+        "best_iter": 197
+      },
+      "chance_moderate_h4": {
+        "best_iter": 243
+      },
+      "chance_poor_h4": {
+        "best_iter": 140
+      },
+      "chance_very_poor_h4": {
+        "best_iter": 69
+      }
+    },
+    "now": {
+      "p50_h1": {
+        "best_iter": 288
+      },
+      "p95_h1": {
+        "best_iter": 284
+      },
+      "features": [
+        "pm25_lag0",
+        "pm25_lag1",
+        "pm25_lag2",
+        "pm25_lag3",
+        "pm25_lag6",
+        "pm25_lag12",
+        "pm25_lag24",
+        "pm25_same_hour_yday",
+        "pm25_same_hour_lastwk",
+        "pm25_mean3",
+        "pm25_mean6",
+        "pm25_mean24",
+        "pm25_slope3",
+        "pm10_now",
+        "no2_now",
+        "co_now",
+        "so2_now",
+        "pm_ratio",
+        "target_hour",
+        "target_dow",
+        "doy_sin",
+        "doy_cos",
+        "ws_now",
+        "u_now",
+        "v_now",
+        "blh_now",
+        "t2m_now",
+        "rh_now",
+        "rain_now",
+        "cloud_now",
+        "psfc_now",
+        "dewdep_now",
+        "vent_now"
+      ],
+      "chance_moderate_h1": {
+        "best_iter": 164
+      },
+      "chance_poor_h1": {
+        "best_iter": 154
+      },
+      "chance_very_poor_h1": {
+        "best_iter": 123
+      },
+      "p50_h2": {
+        "best_iter": 825
+      },
+      "p95_h2": {
+        "best_iter": 427
+      },
+      "chance_moderate_h2": {
+        "best_iter": 251
+      },
+      "chance_poor_h2": {
+        "best_iter": 123
+      },
+      "chance_very_poor_h2": {
+        "best_iter": 76
+      },
+      "p50_h3": {
+        "best_iter": 583
+      },
+      "p95_h3": {
+        "best_iter": 441
+      },
+      "chance_moderate_h3": {
+        "best_iter": 344
+      },
+      "chance_poor_h3": {
+        "best_iter": 126
+      },
+      "chance_very_poor_h3": {
+        "best_iter": 81
+      },
+      "p50_h4": {
+        "best_iter": 766
+      },
+      "p95_h4": {
+        "best_iter": 397
+      },
+      "chance_moderate_h4": {
+        "best_iter": 254
+      },
+      "chance_poor_h4": {
+        "best_iter": 77
+      },
+      "chance_very_poor_h4": {
+        "best_iter": 65
+      }
+    }
+  },
+  "verdict_level": "SHIP",
+  "verdict_chance": "USE",
+  "lightgbm": "4.7.0",
+  "python": "3.13.3"
+}

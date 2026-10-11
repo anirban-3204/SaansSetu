@@ -1,0 +1,185 @@
+{
+ "station_id": "site_1418",
+ "verdict": "no_clear_direction",
+ "top_sector": {
+  "wind_from": [
+   "W",
+   "NW"
+  ],
+  "wind_from_deg": [
+   247.5,
+   337.5
+  ],
+  "centre_deg": 292.5,
+  "hours": 1711,
+  "share_of_high_hours": 0.77,
+  "share_of_all_hours": 0.66,
+  "probability": 0.27,
+  "lift": 1.17,
+  "lift_ci95": [
+   1.09,
+   1.24
+  ],
+  "stable_in": 1.0,
+  "note": "lift = how many times more often the dirtiest hours came from this sector than the wind blew from it. stable_in = share of day-resamples in which the same or a neighbouring sector came out on top."
+ },
+ "wind_source": "Weather reanalysis (ERA5 via Open-Meteo) for the area around the station. Not measured at the station.",
+ "period": {
+  "from": "2019-10-01",
+  "to": "2024-12-31",
+  "months": "October to February",
+  "hours": "06:00 to 10:00",
+  "hours_used": 3194,
+  "days_used": 819
+ },
+ "threshold": {
+  "rule": "the dirtiest quarter of hours, compared with the same month and the same hour of the morning",
+  "pm25_typical": 129.8,
+  "pm25_lowest": 77.4,
+  "pm25_highest": 154.1,
+  "band_typical": "very_poor"
+ },
+ "polar": {
+  "wind_from_labels": [
+   "N",
+   "NE",
+   "E",
+   "SE",
+   "S",
+   "SW",
+   "W",
+   "NW"
+  ],
+  "wind_from_deg_bins": [
+   0,
+   45,
+   90,
+   135,
+   180,
+   225,
+   270,
+   315
+  ],
+  "bin_width_deg": 45,
+  "wind_speed_ms_edges": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "probability": [
+   [
+    0.39,
+    0.27,
+    0.22,
+    0.32,
+    0.31,
+    0.43,
+    0.36,
+    0.35
+   ],
+   [
+    0.18,
+    0.17,
+    0.2,
+    0.21,
+    0.12,
+    0.27,
+    0.28,
+    0.3
+   ],
+   [
+    0.23,
+    0.11,
+    0.0,
+    0.0,
+    0.14,
+    0.0,
+    0.2,
+    0.25
+   ],
+   [
+    0.05,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    null,
+    0.0,
+    0.13
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    null,
+    0.0,
+    0.0
+   ]
+  ],
+  "count": [
+   [
+    115,
+    92,
+    69,
+    34,
+    32,
+    30,
+    78,
+    152
+   ],
+   [
+    283,
+    133,
+    94,
+    42,
+    16,
+    22,
+    395,
+    757
+   ],
+   [
+    101,
+    38,
+    23,
+    20,
+    7,
+    4,
+    86,
+    405
+   ],
+   [
+    20,
+    7,
+    7,
+    15,
+    6,
+    0,
+    2,
+    55
+   ],
+   [
+    5,
+    16,
+    19,
+    2,
+    1,
+    0,
+    1,
+    10
+   ]
+  ],
+  "min_count": 10,
+  "how_to_read": "probability[speed band][direction] = share of hours in that cell that were among the dirtiest. Draw as a polar heatmap: angle = where the wind came from, radius = wind speed. Directions are centred on the compass point. Grey out cells with count below min_count."
+ },
+ "calm": {
+  "under_ms": 1.0,
+  "share_of_high_hours": 0.25,
+  "share_of_all_hours": 0.19
+ },
+ "verdict_rule": "stands_out needs the lower end of lift_ci95 at 1.2 or more and stable_in at 0.8 or more. Other verdicts: no_clear_direction, mostly_still_air, not_enough_data."
+}

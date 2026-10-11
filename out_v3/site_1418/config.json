@@ -1,0 +1,260 @@
+{
+  "station_id": "site_1418",
+  "station": "Asansol Court Area, Asansol - WBPCB",
+  "test": [
+    "2024-10-01",
+    "2025-02-28"
+  ],
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "quantiles": {
+    "p50": 0.5,
+    "p95": 0.95
+  },
+  "school_hours": [
+    7,
+    8,
+    9
+  ],
+  "alert_cases": {
+    "fresh_6am": 6,
+    "lagged_5am": 5
+  },
+  "target": "change",
+  "bad_case": "p95",
+  "predict_level": "expm1(booster.predict(X[features]) + log1p(X.pm25_lag0)); then p95 = max(p95, p50)",
+  "predict_chance": "np.interp(booster.predict(X[features]), knots.x, knots.y) with knots from calibration.json",
+  "labels": [
+    "moderate",
+    "poor",
+    "very_poor"
+  ],
+  "label_thresholds": {
+    "moderate": 61.0,
+    "poor": 91.0,
+    "very_poor": 121.0
+  },
+  "suggested_label": "poor",
+  "winter_school_morning_rate": {
+    "moderate": 0.831,
+    "poor": 0.573,
+    "very_poor": 0.309
+  },
+  "train_hours": 39017,
+  "models": {
+    "fut": {
+      "p50_h1": {
+        "best_iter": 1128
+      },
+      "p95_h1": {
+        "best_iter": 638
+      },
+      "features": [
+        "pm25_lag0",
+        "pm25_lag1",
+        "pm25_lag2",
+        "pm25_lag3",
+        "pm25_lag6",
+        "pm25_lag12",
+        "pm25_lag24",
+        "pm25_same_hour_yday",
+        "pm25_same_hour_lastwk",
+        "pm25_mean3",
+        "pm25_mean6",
+        "pm25_mean24",
+        "pm25_slope3",
+        "pm10_now",
+        "no2_now",
+        "co_now",
+        "so2_now",
+        "pm_ratio",
+        "target_hour",
+        "target_dow",
+        "doy_sin",
+        "doy_cos",
+        "ws_now",
+        "u_now",
+        "v_now",
+        "blh_now",
+        "t2m_now",
+        "rh_now",
+        "rain_now",
+        "cloud_now",
+        "psfc_now",
+        "dewdep_now",
+        "vent_now",
+        "ws_fut",
+        "u_fut",
+        "v_fut",
+        "blh_fut",
+        "t2m_fut",
+        "rh_fut",
+        "rain_fut",
+        "cloud_fut",
+        "psfc_fut",
+        "dewdep_fut",
+        "vent_fut",
+        "blh_change"
+      ],
+      "chance_moderate_h1": {
+        "best_iter": 236
+      },
+      "chance_poor_h1": {
+        "best_iter": 114
+      },
+      "chance_very_poor_h1": {
+        "best_iter": 105
+      },
+      "p50_h2": {
+        "best_iter": 622
+      },
+      "p95_h2": {
+        "best_iter": 625
+      },
+      "chance_moderate_h2": {
+        "best_iter": 332
+      },
+      "chance_poor_h2": {
+        "best_iter": 196
+      },
+      "chance_very_poor_h2": {
+        "best_iter": 81
+      },
+      "p50_h3": {
+        "best_iter": 558
+      },
+      "p95_h3": {
+        "best_iter": 480
+      },
+      "chance_moderate_h3": {
+        "best_iter": 210
+      },
+      "chance_poor_h3": {
+        "best_iter": 199
+      },
+      "chance_very_poor_h3": {
+        "best_iter": 80
+      },
+      "p50_h4": {
+        "best_iter": 854
+      },
+      "p95_h4": {
+        "best_iter": 511
+      },
+      "chance_moderate_h4": {
+        "best_iter": 392
+      },
+      "chance_poor_h4": {
+        "best_iter": 287
+      },
+      "chance_very_poor_h4": {
+        "best_iter": 74
+      }
+    },
+    "now": {
+      "p50_h1": {
+        "best_iter": 724
+      },
+      "p95_h1": {
+        "best_iter": 338
+      },
+      "features": [
+        "pm25_lag0",
+        "pm25_lag1",
+        "pm25_lag2",
+        "pm25_lag3",
+        "pm25_lag6",
+        "pm25_lag12",
+        "pm25_lag24",
+        "pm25_same_hour_yday",
+        "pm25_same_hour_lastwk",
+        "pm25_mean3",
+        "pm25_mean6",
+        "pm25_mean24",
+        "pm25_slope3",
+        "pm10_now",
+        "no2_now",
+        "co_now",
+        "so2_now",
+        "pm_ratio",
+        "target_hour",
+        "target_dow",
+        "doy_sin",
+        "doy_cos",
+        "ws_now",
+        "u_now",
+        "v_now",
+        "blh_now",
+        "t2m_now",
+        "rh_now",
+        "rain_now",
+        "cloud_now",
+        "psfc_now",
+        "dewdep_now",
+        "vent_now"
+      ],
+      "chance_moderate_h1": {
+        "best_iter": 158
+      },
+      "chance_poor_h1": {
+        "best_iter": 147
+      },
+      "chance_very_poor_h1": {
+        "best_iter": 105
+      },
+      "p50_h2": {
+        "best_iter": 1088
+      },
+      "p95_h2": {
+        "best_iter": 662
+      },
+      "chance_moderate_h2": {
+        "best_iter": 277
+      },
+      "chance_poor_h2": {
+        "best_iter": 210
+      },
+      "chance_very_poor_h2": {
+        "best_iter": 72
+      },
+      "p50_h3": {
+        "best_iter": 902
+      },
+      "p95_h3": {
+        "best_iter": 717
+      },
+      "chance_moderate_h3": {
+        "best_iter": 197
+      },
+      "chance_poor_h3": {
+        "best_iter": 302
+      },
+      "chance_very_poor_h3": {
+        "best_iter": 119
+      },
+      "p50_h4": {
+        "best_iter": 809
+      },
+      "p95_h4": {
+        "best_iter": 517
+      },
+      "chance_moderate_h4": {
+        "best_iter": 172
+      },
+      "chance_poor_h4": {
+        "best_iter": 208
+      },
+      "chance_very_poor_h4": {
+        "best_iter": 76
+      }
+    }
+  },
+  "verdict_level": "SHIP",
+  "verdict_chance": "USE",
+  "lightgbm": "4.7.0",
+  "python": "3.13.3"
+}

@@ -1,0 +1,5 @@
+station,station_id,train_hours,level,fresh_6am_fut_skill,fresh_6am_now_skill,lagged_5am_fut_skill,lagged_5am_now_skill,mae_model,mae_persistence,bad_case_held,chance,chance_label,chance_skill,chance_event_rate
+"Asansol Court Area, Asansol - WBPCB",site_1418,39017,SHIP,0.238,0.23,0.215,0.202,10.55,13.85,0.868,USE,poor,0.759,0.684
+"Raghunathpali, Rourkela - OSPCB",site_5675,15032,SHIP,0.28,0.264,0.278,0.249,7.84,10.89,0.875,USE,moderate,0.561,0.673
+"GVM Corporation, Visakhapatnam - APPCB",site_260,40187,SHIP,0.15,0.106,0.197,0.176,7.95,9.36,0.92,USE,moderate,0.779,0.558
+"Hakimapada, Angul - OSPCB",site_5939,7763,SHIP,0.26,0.271,0.305,0.298,21.72,29.36,0.945,USE,very_poor,0.507,0.196

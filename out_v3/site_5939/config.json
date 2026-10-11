@@ -1,0 +1,260 @@
+{
+  "station_id": "site_5939",
+  "station": "Hakimapada, Angul - OSPCB",
+  "test": [
+    "2024-10-01",
+    "2025-02-28"
+  ],
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "quantiles": {
+    "p50": 0.5,
+    "p95": 0.95
+  },
+  "school_hours": [
+    7,
+    8,
+    9
+  ],
+  "alert_cases": {
+    "fresh_6am": 6,
+    "lagged_5am": 5
+  },
+  "target": "change",
+  "bad_case": "p95",
+  "predict_level": "expm1(booster.predict(X[features]) + log1p(X.pm25_lag0)); then p95 = max(p95, p50)",
+  "predict_chance": "np.interp(booster.predict(X[features]), knots.x, knots.y) with knots from calibration.json",
+  "labels": [
+    "moderate",
+    "poor",
+    "very_poor"
+  ],
+  "label_thresholds": {
+    "moderate": 61.0,
+    "poor": 91.0,
+    "very_poor": 121.0
+  },
+  "suggested_label": "very_poor",
+  "winter_school_morning_rate": {
+    "moderate": 0.976,
+    "poor": 0.871,
+    "very_poor": 0.66
+  },
+  "train_hours": 7763,
+  "models": {
+    "fut": {
+      "p50_h1": {
+        "best_iter": 50
+      },
+      "p95_h1": {
+        "best_iter": 178
+      },
+      "features": [
+        "pm25_lag0",
+        "pm25_lag1",
+        "pm25_lag2",
+        "pm25_lag3",
+        "pm25_lag6",
+        "pm25_lag12",
+        "pm25_lag24",
+        "pm25_same_hour_yday",
+        "pm25_same_hour_lastwk",
+        "pm25_mean3",
+        "pm25_mean6",
+        "pm25_mean24",
+        "pm25_slope3",
+        "pm10_now",
+        "no2_now",
+        "co_now",
+        "so2_now",
+        "pm_ratio",
+        "target_hour",
+        "target_dow",
+        "doy_sin",
+        "doy_cos",
+        "ws_now",
+        "u_now",
+        "v_now",
+        "blh_now",
+        "t2m_now",
+        "rh_now",
+        "rain_now",
+        "cloud_now",
+        "psfc_now",
+        "dewdep_now",
+        "vent_now",
+        "ws_fut",
+        "u_fut",
+        "v_fut",
+        "blh_fut",
+        "t2m_fut",
+        "rh_fut",
+        "rain_fut",
+        "cloud_fut",
+        "psfc_fut",
+        "dewdep_fut",
+        "vent_fut",
+        "blh_change"
+      ],
+      "chance_moderate_h1": {
+        "best_iter": 123
+      },
+      "chance_poor_h1": {
+        "best_iter": 75
+      },
+      "chance_very_poor_h1": {
+        "best_iter": 58
+      },
+      "p50_h2": {
+        "best_iter": 50
+      },
+      "p95_h2": {
+        "best_iter": 202
+      },
+      "chance_moderate_h2": {
+        "best_iter": 287
+      },
+      "chance_poor_h2": {
+        "best_iter": 56
+      },
+      "chance_very_poor_h2": {
+        "best_iter": 40
+      },
+      "p50_h3": {
+        "best_iter": 50
+      },
+      "p95_h3": {
+        "best_iter": 157
+      },
+      "chance_moderate_h3": {
+        "best_iter": 291
+      },
+      "chance_poor_h3": {
+        "best_iter": 47
+      },
+      "chance_very_poor_h3": {
+        "best_iter": 30
+      },
+      "p50_h4": {
+        "best_iter": 50
+      },
+      "p95_h4": {
+        "best_iter": 148
+      },
+      "chance_moderate_h4": {
+        "best_iter": 367
+      },
+      "chance_poor_h4": {
+        "best_iter": 30
+      },
+      "chance_very_poor_h4": {
+        "best_iter": 32
+      }
+    },
+    "now": {
+      "p50_h1": {
+        "best_iter": 50
+      },
+      "p95_h1": {
+        "best_iter": 139
+      },
+      "features": [
+        "pm25_lag0",
+        "pm25_lag1",
+        "pm25_lag2",
+        "pm25_lag3",
+        "pm25_lag6",
+        "pm25_lag12",
+        "pm25_lag24",
+        "pm25_same_hour_yday",
+        "pm25_same_hour_lastwk",
+        "pm25_mean3",
+        "pm25_mean6",
+        "pm25_mean24",
+        "pm25_slope3",
+        "pm10_now",
+        "no2_now",
+        "co_now",
+        "so2_now",
+        "pm_ratio",
+        "target_hour",
+        "target_dow",
+        "doy_sin",
+        "doy_cos",
+        "ws_now",
+        "u_now",
+        "v_now",
+        "blh_now",
+        "t2m_now",
+        "rh_now",
+        "rain_now",
+        "cloud_now",
+        "psfc_now",
+        "dewdep_now",
+        "vent_now"
+      ],
+      "chance_moderate_h1": {
+        "best_iter": 256
+      },
+      "chance_poor_h1": {
+        "best_iter": 82
+      },
+      "chance_very_poor_h1": {
+        "best_iter": 57
+      },
+      "p50_h2": {
+        "best_iter": 50
+      },
+      "p95_h2": {
+        "best_iter": 160
+      },
+      "chance_moderate_h2": {
+        "best_iter": 279
+      },
+      "chance_poor_h2": {
+        "best_iter": 47
+      },
+      "chance_very_poor_h2": {
+        "best_iter": 44
+      },
+      "p50_h3": {
+        "best_iter": 50
+      },
+      "p95_h3": {
+        "best_iter": 149
+      },
+      "chance_moderate_h3": {
+        "best_iter": 130
+      },
+      "chance_poor_h3": {
+        "best_iter": 33
+      },
+      "chance_very_poor_h3": {
+        "best_iter": 33
+      },
+      "p50_h4": {
+        "best_iter": 50
+      },
+      "p95_h4": {
+        "best_iter": 131
+      },
+      "chance_moderate_h4": {
+        "best_iter": 356
+      },
+      "chance_poor_h4": {
+        "best_iter": 30
+      },
+      "chance_very_poor_h4": {
+        "best_iter": 30
+      }
+    }
+  },
+  "verdict_level": "SHIP",
+  "verdict_chance": "USE",
+  "lightgbm": "4.7.0",
+  "python": "3.13.3"
+}

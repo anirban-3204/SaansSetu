@@ -1,0 +1,1202 @@
+{
+  "fut": {
+    "h1": {
+      "all_hours": {
+        "n": 2101,
+        "mae_model": 6.3,
+        "mae_persistence": 7.76,
+        "mae_diurnal": 7.26,
+        "skill_vs_persistence": 0.189,
+        "skill_vs_diurnal": 0.132,
+        "p95_coverage": 0.95,
+        "poor_detect_model_p50": {
+          "events": 594,
+          "hit_rate": 0.923,
+          "false_alarm_ratio": 0.142,
+          "csi": 0.8
+        },
+        "poor_detect_model_p95": {
+          "events": 594,
+          "hit_rate": 0.99,
+          "false_alarm_ratio": 0.355,
+          "csi": 0.641
+        },
+        "poor_detect_persistence": {
+          "events": 594,
+          "hit_rate": 0.852,
+          "false_alarm_ratio": 0.145,
+          "csi": 0.744
+        }
+      },
+      "school_7to9": {
+        "n": 260,
+        "mae_model": 6.06,
+        "mae_persistence": 6.92,
+        "mae_diurnal": 6.38,
+        "skill_vs_persistence": 0.123,
+        "skill_vs_diurnal": 0.05,
+        "p95_coverage": 0.915,
+        "poor_detect_model_p50": {
+          "events": 60,
+          "hit_rate": 0.883,
+          "false_alarm_ratio": 0.185,
+          "csi": 0.736
+        },
+        "poor_detect_model_p95": {
+          "events": 60,
+          "hit_rate": 1.0,
+          "false_alarm_ratio": 0.429,
+          "csi": 0.571
+        },
+        "poor_detect_persistence": {
+          "events": 60,
+          "hit_rate": 0.633,
+          "false_alarm_ratio": 0.116,
+          "csi": 0.585
+        }
+      }
+    },
+    "h2": {
+      "all_hours": {
+        "n": 2089,
+        "mae_model": 9.17,
+        "mae_persistence": 12.89,
+        "mae_diurnal": 11.13,
+        "skill_vs_persistence": 0.289,
+        "skill_vs_diurnal": 0.176,
+        "p95_coverage": 0.932,
+        "poor_detect_model_p50": {
+          "events": 590,
+          "hit_rate": 0.886,
+          "false_alarm_ratio": 0.194,
+          "csi": 0.73
+        },
+        "poor_detect_model_p95": {
+          "events": 590,
+          "hit_rate": 0.983,
+          "false_alarm_ratio": 0.422,
+          "csi": 0.572
+        },
+        "poor_detect_persistence": {
+          "events": 590,
+          "hit_rate": 0.761,
+          "false_alarm_ratio": 0.24,
+          "csi": 0.613
+        }
+      },
+      "school_7to9": {
+        "n": 258,
+        "mae_model": 8.12,
+        "mae_persistence": 10.55,
+        "mae_diurnal": 9.24,
+        "skill_vs_persistence": 0.231,
+        "skill_vs_diurnal": 0.122,
+        "p95_coverage": 0.888,
+        "poor_detect_model_p50": {
+          "events": 60,
+          "hit_rate": 0.883,
+          "false_alarm_ratio": 0.254,
+          "csi": 0.679
+        },
+        "poor_detect_model_p95": {
+          "events": 60,
+          "hit_rate": 0.983,
+          "false_alarm_ratio": 0.504,
+          "csi": 0.492
+        },
+        "poor_detect_persistence": {
+          "events": 60,
+          "hit_rate": 0.417,
+          "false_alarm_ratio": 0.194,
+          "csi": 0.379
+        }
+      }
+    },
+    "h3": {
+      "all_hours": {
+        "n": 2081,
+        "mae_model": 10.88,
+        "mae_persistence": 16.83,
+        "mae_diurnal": 13.66,
+        "skill_vs_persistence": 0.353,
+        "skill_vs_diurnal": 0.203,
+        "p95_coverage": 0.92,
+        "poor_detect_model_p50": {
+          "events": 587,
+          "hit_rate": 0.814,
+          "false_alarm_ratio": 0.232,
+          "csi": 0.654
+        },
+        "poor_detect_model_p95": {
+          "events": 587,
+          "hit_rate": 0.985,
+          "false_alarm_ratio": 0.461,
+          "csi": 0.534
+        },
+        "poor_detect_persistence": {
+          "events": 587,
+          "hit_rate": 0.687,
+          "false_alarm_ratio": 0.318,
+          "csi": 0.52
+        }
+      },
+      "school_7to9": {
+        "n": 258,
+        "mae_model": 8.93,
+        "mae_persistence": 12.09,
+        "mae_diurnal": 10.66,
+        "skill_vs_persistence": 0.261,
+        "skill_vs_diurnal": 0.162,
+        "p95_coverage": 0.907,
+        "poor_detect_model_p50": {
+          "events": 60,
+          "hit_rate": 0.833,
+          "false_alarm_ratio": 0.306,
+          "csi": 0.61
+        },
+        "poor_detect_model_p95": {
+          "events": 60,
+          "hit_rate": 0.967,
+          "false_alarm_ratio": 0.525,
+          "csi": 0.468
+        },
+        "poor_detect_persistence": {
+          "events": 60,
+          "hit_rate": 0.383,
+          "false_alarm_ratio": 0.115,
+          "csi": 0.365
+        }
+      }
+    },
+    "h4": {
+      "all_hours": {
+        "n": 2074,
+        "mae_model": 11.95,
+        "mae_persistence": 19.63,
+        "mae_diurnal": 15.27,
+        "skill_vs_persistence": 0.391,
+        "skill_vs_diurnal": 0.217,
+        "p95_coverage": 0.914,
+        "poor_detect_model_p50": {
+          "events": 584,
+          "hit_rate": 0.748,
+          "false_alarm_ratio": 0.239,
+          "csi": 0.606
+        },
+        "poor_detect_model_p95": {
+          "events": 584,
+          "hit_rate": 0.976,
+          "false_alarm_ratio": 0.485,
+          "csi": 0.508
+        },
+        "poor_detect_persistence": {
+          "events": 584,
+          "hit_rate": 0.627,
+          "false_alarm_ratio": 0.38,
+          "csi": 0.453
+        }
+      },
+      "school_7to9": {
+        "n": 259,
+        "mae_model": 9.28,
+        "mae_persistence": 12.73,
+        "mae_diurnal": 11.44,
+        "skill_vs_persistence": 0.271,
+        "skill_vs_diurnal": 0.189,
+        "p95_coverage": 0.915,
+        "poor_detect_model_p50": {
+          "events": 61,
+          "hit_rate": 0.787,
+          "false_alarm_ratio": 0.304,
+          "csi": 0.585
+        },
+        "poor_detect_model_p95": {
+          "events": 61,
+          "hit_rate": 0.967,
+          "false_alarm_ratio": 0.52,
+          "csi": 0.472
+        },
+        "poor_detect_persistence": {
+          "events": 61,
+          "hit_rate": 0.41,
+          "false_alarm_ratio": 0.194,
+          "csi": 0.373
+        }
+      }
+    },
+    "fresh_6am": {
+      "n": 257,
+      "mae_model": 7.84,
+      "mae_persistence": 10.89,
+      "mae_diurnal": 8.7,
+      "skill_vs_persistence": 0.28,
+      "skill_vs_diurnal": 0.099,
+      "p95_coverage": 0.875,
+      "poor_detect_model_p50": {
+        "events": 58,
+        "hit_rate": 0.879,
+        "false_alarm_ratio": 0.271,
+        "csi": 0.662
+      },
+      "poor_detect_model_p95": {
+        "events": 58,
+        "hit_rate": 0.966,
+        "false_alarm_ratio": 0.504,
+        "csi": 0.487
+      },
+      "poor_detect_persistence": {
+        "events": 58,
+        "hit_rate": 0.379,
+        "false_alarm_ratio": 0.185,
+        "csi": 0.349
+      },
+      "skill_vs_persistence_ci95": [
+        0.168,
+        0.378
+      ],
+      "skill_vs_diurnal_ci95": [
+        0.017,
+        0.175
+      ],
+      "chance": {
+        "moderate": {
+          "n": 257,
+          "event_rate": 0.673,
+          "brier_model": 0.0782,
+          "brier_usual_rate": 0.1779,
+          "brier_persistence": 0.1518,
+          "skill_vs_usual_rate": 0.561,
+          "skill_vs_usual_rate_ci95": [
+            0.371,
+            0.721
+          ],
+          "skill_vs_persistence": 0.485,
+          "auc": 0.956,
+          "calibration_error": 0.048,
+          "at_50pct": {
+            "events": 173,
+            "hit_rate": 0.919,
+            "false_alarm_ratio": 0.081,
+            "csi": 0.85
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 73,
+              "mean_said": 0.04,
+              "happened": 0.096
+            },
+            {
+              "said": "20-40%",
+              "n": 6,
+              "mean_said": 0.316,
+              "happened": 0.5
+            },
+            {
+              "said": "40-60%",
+              "n": 21,
+              "mean_said": 0.511,
+              "happened": 0.619
+            },
+            {
+              "said": "60-80%",
+              "n": 19,
+              "mean_said": 0.719,
+              "happened": 0.895
+            },
+            {
+              "said": "80-100%",
+              "n": 138,
+              "mean_said": 0.955,
+              "happened": 0.964
+            }
+          ]
+        },
+        "poor": {
+          "n": 257,
+          "event_rate": 0.226,
+          "brier_model": 0.0841,
+          "brier_usual_rate": 0.1667,
+          "brier_persistence": 0.1595,
+          "skill_vs_usual_rate": 0.495,
+          "skill_vs_usual_rate_ci95": [
+            0.295,
+            0.652
+          ],
+          "skill_vs_persistence": 0.473,
+          "auc": 0.937,
+          "calibration_error": 0.038,
+          "at_50pct": {
+            "events": 58,
+            "hit_rate": 0.69,
+            "false_alarm_ratio": 0.259,
+            "csi": 0.556
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 167,
+              "mean_said": 0.032,
+              "happened": 0.042
+            },
+            {
+              "said": "20-40%",
+              "n": 21,
+              "mean_said": 0.307,
+              "happened": 0.238
+            },
+            {
+              "said": "40-60%",
+              "n": 25,
+              "mean_said": 0.501,
+              "happened": 0.4
+            },
+            {
+              "said": "60-80%",
+              "n": 14,
+              "mean_said": 0.743,
+              "happened": 0.714
+            },
+            {
+              "said": "80-100%",
+              "n": 30,
+              "mean_said": 0.922,
+              "happened": 0.867
+            }
+          ]
+        },
+        "very_poor": {
+          "n": 257,
+          "event_rate": 0.039,
+          "brier_model": 0.0285,
+          "brier_usual_rate": 0.0377,
+          "brier_persistence": 0.0389,
+          "skill_vs_usual_rate": 0.245,
+          "skill_vs_usual_rate_ci95": [
+            -0.295,
+            0.461
+          ],
+          "skill_vs_persistence": 0.269,
+          "auc": 0.964,
+          "calibration_error": 0.03,
+          "at_50pct": {
+            "events": 10,
+            "hit_rate": 0.1,
+            "false_alarm_ratio": 0.667,
+            "csi": 0.083
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 243,
+              "mean_said": 0.017,
+              "happened": 0.016
+            },
+            {
+              "said": "20-40%",
+              "n": 10,
+              "mean_said": 0.299,
+              "happened": 0.5
+            },
+            {
+              "said": "40-60%",
+              "n": 3,
+              "mean_said": 0.502,
+              "happened": 0.333
+            },
+            {
+              "said": "60-80%",
+              "n": 1,
+              "mean_said": 0.602,
+              "happened": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "lagged_5am": {
+      "n": 257,
+      "mae_model": 8.8,
+      "mae_persistence": 12.19,
+      "mae_diurnal": 10.73,
+      "skill_vs_persistence": 0.278,
+      "skill_vs_diurnal": 0.18,
+      "p95_coverage": 0.907,
+      "poor_detect_model_p50": {
+        "events": 61,
+        "hit_rate": 0.836,
+        "false_alarm_ratio": 0.338,
+        "csi": 0.586
+      },
+      "poor_detect_model_p95": {
+        "events": 61,
+        "hit_rate": 0.967,
+        "false_alarm_ratio": 0.504,
+        "csi": 0.488
+      },
+      "poor_detect_persistence": {
+        "events": 61,
+        "hit_rate": 0.426,
+        "false_alarm_ratio": 0.133,
+        "csi": 0.4
+      },
+      "skill_vs_persistence_ci95": [
+        0.15,
+        0.385
+      ],
+      "skill_vs_diurnal_ci95": [
+        0.099,
+        0.256
+      ],
+      "chance": {
+        "moderate": {
+          "n": 257,
+          "event_rate": 0.673,
+          "brier_model": 0.074,
+          "brier_usual_rate": 0.1779,
+          "brier_persistence": 0.1518,
+          "skill_vs_usual_rate": 0.584,
+          "skill_vs_usual_rate_ci95": [
+            0.429,
+            0.722
+          ],
+          "skill_vs_persistence": 0.512,
+          "auc": 0.965,
+          "calibration_error": 0.062,
+          "at_50pct": {
+            "events": 173,
+            "hit_rate": 0.925,
+            "false_alarm_ratio": 0.064,
+            "csi": 0.87
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 69,
+              "mean_said": 0.049,
+              "happened": 0.087
+            },
+            {
+              "said": "20-40%",
+              "n": 8,
+              "mean_said": 0.263,
+              "happened": 0.5
+            },
+            {
+              "said": "40-60%",
+              "n": 17,
+              "mean_said": 0.496,
+              "happened": 0.412
+            },
+            {
+              "said": "60-80%",
+              "n": 32,
+              "mean_said": 0.691,
+              "happened": 0.844
+            },
+            {
+              "said": "80-100%",
+              "n": 131,
+              "mean_said": 0.95,
+              "happened": 0.985
+            }
+          ]
+        },
+        "poor": {
+          "n": 257,
+          "event_rate": 0.237,
+          "brier_model": 0.0907,
+          "brier_usual_rate": 0.172,
+          "brier_persistence": 0.1518,
+          "skill_vs_usual_rate": 0.473,
+          "skill_vs_usual_rate_ci95": [
+            0.261,
+            0.62
+          ],
+          "skill_vs_persistence": 0.402,
+          "auc": 0.933,
+          "calibration_error": 0.056,
+          "at_50pct": {
+            "events": 61,
+            "hit_rate": 0.787,
+            "false_alarm_ratio": 0.314,
+            "csi": 0.578
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 153,
+              "mean_said": 0.039,
+              "happened": 0.013
+            },
+            {
+              "said": "20-40%",
+              "n": 23,
+              "mean_said": 0.307,
+              "happened": 0.304
+            },
+            {
+              "said": "40-60%",
+              "n": 22,
+              "mean_said": 0.503,
+              "happened": 0.409
+            },
+            {
+              "said": "60-80%",
+              "n": 32,
+              "mean_said": 0.692,
+              "happened": 0.656
+            },
+            {
+              "said": "80-100%",
+              "n": 27,
+              "mean_said": 0.883,
+              "happened": 0.815
+            }
+          ]
+        },
+        "very_poor": {
+          "n": 257,
+          "event_rate": 0.039,
+          "brier_model": 0.0327,
+          "brier_usual_rate": 0.0377,
+          "brier_persistence": 0.0389,
+          "skill_vs_usual_rate": 0.133,
+          "skill_vs_usual_rate_ci95": [
+            -0.383,
+            0.39
+          ],
+          "skill_vs_persistence": 0.16,
+          "auc": 0.811,
+          "calibration_error": 0.019,
+          "at_50pct": {
+            "events": 10,
+            "hit_rate": 0.2,
+            "false_alarm_ratio": 0.0,
+            "csi": 0.2
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 240,
+              "mean_said": 0.023,
+              "happened": 0.025
+            },
+            {
+              "said": "20-40%",
+              "n": 10,
+              "mean_said": 0.254,
+              "happened": 0.2
+            },
+            {
+              "said": "40-60%",
+              "n": 7,
+              "mean_said": 0.463,
+              "happened": 0.286
+            }
+          ]
+        }
+      }
+    }
+  },
+  "now": {
+    "h1": {
+      "all_hours": {
+        "n": 2101,
+        "mae_model": 6.28,
+        "mae_persistence": 7.76,
+        "mae_diurnal": 7.26,
+        "skill_vs_persistence": 0.191,
+        "skill_vs_diurnal": 0.134,
+        "p95_coverage": 0.956,
+        "poor_detect_model_p50": {
+          "events": 594,
+          "hit_rate": 0.919,
+          "false_alarm_ratio": 0.14,
+          "csi": 0.799
+        },
+        "poor_detect_model_p95": {
+          "events": 594,
+          "hit_rate": 0.993,
+          "false_alarm_ratio": 0.369,
+          "csi": 0.628
+        },
+        "poor_detect_persistence": {
+          "events": 594,
+          "hit_rate": 0.852,
+          "false_alarm_ratio": 0.145,
+          "csi": 0.744
+        }
+      },
+      "school_7to9": {
+        "n": 260,
+        "mae_model": 6.01,
+        "mae_persistence": 6.92,
+        "mae_diurnal": 6.38,
+        "skill_vs_persistence": 0.131,
+        "skill_vs_diurnal": 0.059,
+        "p95_coverage": 0.923,
+        "poor_detect_model_p50": {
+          "events": 60,
+          "hit_rate": 0.867,
+          "false_alarm_ratio": 0.212,
+          "csi": 0.703
+        },
+        "poor_detect_model_p95": {
+          "events": 60,
+          "hit_rate": 1.0,
+          "false_alarm_ratio": 0.459,
+          "csi": 0.541
+        },
+        "poor_detect_persistence": {
+          "events": 60,
+          "hit_rate": 0.633,
+          "false_alarm_ratio": 0.116,
+          "csi": 0.585
+        }
+      }
+    },
+    "h2": {
+      "all_hours": {
+        "n": 2089,
+        "mae_model": 9.16,
+        "mae_persistence": 12.89,
+        "mae_diurnal": 11.13,
+        "skill_vs_persistence": 0.289,
+        "skill_vs_diurnal": 0.177,
+        "p95_coverage": 0.936,
+        "poor_detect_model_p50": {
+          "events": 590,
+          "hit_rate": 0.89,
+          "false_alarm_ratio": 0.195,
+          "csi": 0.732
+        },
+        "poor_detect_model_p95": {
+          "events": 590,
+          "hit_rate": 0.988,
+          "false_alarm_ratio": 0.437,
+          "csi": 0.56
+        },
+        "poor_detect_persistence": {
+          "events": 590,
+          "hit_rate": 0.761,
+          "false_alarm_ratio": 0.24,
+          "csi": 0.613
+        }
+      },
+      "school_7to9": {
+        "n": 258,
+        "mae_model": 8.35,
+        "mae_persistence": 10.55,
+        "mae_diurnal": 9.24,
+        "skill_vs_persistence": 0.209,
+        "skill_vs_diurnal": 0.097,
+        "p95_coverage": 0.895,
+        "poor_detect_model_p50": {
+          "events": 60,
+          "hit_rate": 0.867,
+          "false_alarm_ratio": 0.257,
+          "csi": 0.667
+        },
+        "poor_detect_model_p95": {
+          "events": 60,
+          "hit_rate": 0.983,
+          "false_alarm_ratio": 0.528,
+          "csi": 0.468
+        },
+        "poor_detect_persistence": {
+          "events": 60,
+          "hit_rate": 0.417,
+          "false_alarm_ratio": 0.194,
+          "csi": 0.379
+        }
+      }
+    },
+    "h3": {
+      "all_hours": {
+        "n": 2081,
+        "mae_model": 10.92,
+        "mae_persistence": 16.83,
+        "mae_diurnal": 13.66,
+        "skill_vs_persistence": 0.351,
+        "skill_vs_diurnal": 0.201,
+        "p95_coverage": 0.928,
+        "poor_detect_model_p50": {
+          "events": 587,
+          "hit_rate": 0.825,
+          "false_alarm_ratio": 0.238,
+          "csi": 0.656
+        },
+        "poor_detect_model_p95": {
+          "events": 587,
+          "hit_rate": 0.986,
+          "false_alarm_ratio": 0.467,
+          "csi": 0.529
+        },
+        "poor_detect_persistence": {
+          "events": 587,
+          "hit_rate": 0.687,
+          "false_alarm_ratio": 0.318,
+          "csi": 0.52
+        }
+      },
+      "school_7to9": {
+        "n": 258,
+        "mae_model": 9.2,
+        "mae_persistence": 12.09,
+        "mae_diurnal": 10.66,
+        "skill_vs_persistence": 0.239,
+        "skill_vs_diurnal": 0.137,
+        "p95_coverage": 0.907,
+        "poor_detect_model_p50": {
+          "events": 60,
+          "hit_rate": 0.85,
+          "false_alarm_ratio": 0.329,
+          "csi": 0.6
+        },
+        "poor_detect_model_p95": {
+          "events": 60,
+          "hit_rate": 0.967,
+          "false_alarm_ratio": 0.547,
+          "csi": 0.446
+        },
+        "poor_detect_persistence": {
+          "events": 60,
+          "hit_rate": 0.383,
+          "false_alarm_ratio": 0.115,
+          "csi": 0.365
+        }
+      }
+    },
+    "h4": {
+      "all_hours": {
+        "n": 2074,
+        "mae_model": 11.97,
+        "mae_persistence": 19.63,
+        "mae_diurnal": 15.27,
+        "skill_vs_persistence": 0.39,
+        "skill_vs_diurnal": 0.216,
+        "p95_coverage": 0.935,
+        "poor_detect_model_p50": {
+          "events": 584,
+          "hit_rate": 0.753,
+          "false_alarm_ratio": 0.258,
+          "csi": 0.597
+        },
+        "poor_detect_model_p95": {
+          "events": 584,
+          "hit_rate": 0.985,
+          "false_alarm_ratio": 0.509,
+          "csi": 0.487
+        },
+        "poor_detect_persistence": {
+          "events": 584,
+          "hit_rate": 0.627,
+          "false_alarm_ratio": 0.38,
+          "csi": 0.453
+        }
+      },
+      "school_7to9": {
+        "n": 259,
+        "mae_model": 9.69,
+        "mae_persistence": 12.73,
+        "mae_diurnal": 11.44,
+        "skill_vs_persistence": 0.238,
+        "skill_vs_diurnal": 0.153,
+        "p95_coverage": 0.954,
+        "poor_detect_model_p50": {
+          "events": 61,
+          "hit_rate": 0.82,
+          "false_alarm_ratio": 0.315,
+          "csi": 0.595
+        },
+        "poor_detect_model_p95": {
+          "events": 61,
+          "hit_rate": 0.984,
+          "false_alarm_ratio": 0.574,
+          "csi": 0.423
+        },
+        "poor_detect_persistence": {
+          "events": 61,
+          "hit_rate": 0.41,
+          "false_alarm_ratio": 0.194,
+          "csi": 0.373
+        }
+      }
+    },
+    "fresh_6am": {
+      "n": 257,
+      "mae_model": 8.01,
+      "mae_persistence": 10.89,
+      "mae_diurnal": 8.7,
+      "skill_vs_persistence": 0.264,
+      "skill_vs_diurnal": 0.079,
+      "p95_coverage": 0.887,
+      "poor_detect_model_p50": {
+        "events": 58,
+        "hit_rate": 0.879,
+        "false_alarm_ratio": 0.261,
+        "csi": 0.671
+      },
+      "poor_detect_model_p95": {
+        "events": 58,
+        "hit_rate": 0.966,
+        "false_alarm_ratio": 0.521,
+        "csi": 0.471
+      },
+      "poor_detect_persistence": {
+        "events": 58,
+        "hit_rate": 0.379,
+        "false_alarm_ratio": 0.185,
+        "csi": 0.349
+      },
+      "skill_vs_persistence_ci95": [
+        0.16,
+        0.361
+      ],
+      "skill_vs_diurnal_ci95": [
+        0.003,
+        0.156
+      ],
+      "chance": {
+        "moderate": {
+          "n": 257,
+          "event_rate": 0.673,
+          "brier_model": 0.0847,
+          "brier_usual_rate": 0.1779,
+          "brier_persistence": 0.1518,
+          "skill_vs_usual_rate": 0.524,
+          "skill_vs_usual_rate_ci95": [
+            0.337,
+            0.691
+          ],
+          "skill_vs_persistence": 0.442,
+          "auc": 0.958,
+          "calibration_error": 0.078,
+          "at_50pct": {
+            "events": 173,
+            "hit_rate": 0.861,
+            "false_alarm_ratio": 0.063,
+            "csi": 0.814
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 75,
+              "mean_said": 0.042,
+              "happened": 0.107
+            },
+            {
+              "said": "20-40%",
+              "n": 14,
+              "mean_said": 0.275,
+              "happened": 0.643
+            },
+            {
+              "said": "40-60%",
+              "n": 15,
+              "mean_said": 0.479,
+              "happened": 0.6
+            },
+            {
+              "said": "60-80%",
+              "n": 21,
+              "mean_said": 0.723,
+              "happened": 0.857
+            },
+            {
+              "said": "80-100%",
+              "n": 132,
+              "mean_said": 0.953,
+              "happened": 0.977
+            }
+          ]
+        },
+        "poor": {
+          "n": 257,
+          "event_rate": 0.226,
+          "brier_model": 0.0753,
+          "brier_usual_rate": 0.1667,
+          "brier_persistence": 0.1595,
+          "skill_vs_usual_rate": 0.548,
+          "skill_vs_usual_rate_ci95": [
+            0.368,
+            0.684
+          ],
+          "skill_vs_persistence": 0.528,
+          "auc": 0.947,
+          "calibration_error": 0.028,
+          "at_50pct": {
+            "events": 58,
+            "hit_rate": 0.707,
+            "false_alarm_ratio": 0.18,
+            "csi": 0.612
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 165,
+              "mean_said": 0.035,
+              "happened": 0.03
+            },
+            {
+              "said": "20-40%",
+              "n": 29,
+              "mean_said": 0.315,
+              "happened": 0.241
+            },
+            {
+              "said": "40-60%",
+              "n": 18,
+              "mean_said": 0.462,
+              "happened": 0.444
+            },
+            {
+              "said": "60-80%",
+              "n": 17,
+              "mean_said": 0.722,
+              "happened": 0.765
+            },
+            {
+              "said": "80-100%",
+              "n": 28,
+              "mean_said": 0.909,
+              "happened": 0.893
+            }
+          ]
+        },
+        "very_poor": {
+          "n": 257,
+          "event_rate": 0.039,
+          "brier_model": 0.0262,
+          "brier_usual_rate": 0.0377,
+          "brier_persistence": 0.0389,
+          "skill_vs_usual_rate": 0.304,
+          "skill_vs_usual_rate_ci95": [
+            -0.23,
+            0.517
+          ],
+          "skill_vs_persistence": 0.326,
+          "auc": 0.973,
+          "calibration_error": 0.024,
+          "at_50pct": {
+            "events": 10,
+            "hit_rate": 0.2,
+            "false_alarm_ratio": 0.333,
+            "csi": 0.182
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 243,
+              "mean_said": 0.016,
+              "happened": 0.016
+            },
+            {
+              "said": "20-40%",
+              "n": 9,
+              "mean_said": 0.307,
+              "happened": 0.444
+            },
+            {
+              "said": "40-60%",
+              "n": 4,
+              "mean_said": 0.479,
+              "happened": 0.25
+            },
+            {
+              "said": "60-80%",
+              "n": 1,
+              "mean_said": 0.652,
+              "happened": 1.0
+            }
+          ]
+        }
+      }
+    },
+    "lagged_5am": {
+      "n": 257,
+      "mae_model": 9.16,
+      "mae_persistence": 12.19,
+      "mae_diurnal": 10.73,
+      "skill_vs_persistence": 0.249,
+      "skill_vs_diurnal": 0.147,
+      "p95_coverage": 0.922,
+      "poor_detect_model_p50": {
+        "events": 61,
+        "hit_rate": 0.852,
+        "false_alarm_ratio": 0.325,
+        "csi": 0.605
+      },
+      "poor_detect_model_p95": {
+        "events": 61,
+        "hit_rate": 0.984,
+        "false_alarm_ratio": 0.538,
+        "csi": 0.458
+      },
+      "poor_detect_persistence": {
+        "events": 61,
+        "hit_rate": 0.426,
+        "false_alarm_ratio": 0.133,
+        "csi": 0.4
+      },
+      "skill_vs_persistence_ci95": [
+        0.105,
+        0.36
+      ],
+      "skill_vs_diurnal_ci95": [
+        0.055,
+        0.228
+      ],
+      "chance": {
+        "moderate": {
+          "n": 257,
+          "event_rate": 0.673,
+          "brier_model": 0.0757,
+          "brier_usual_rate": 0.1779,
+          "brier_persistence": 0.1518,
+          "skill_vs_usual_rate": 0.575,
+          "skill_vs_usual_rate_ci95": [
+            0.42,
+            0.713
+          ],
+          "skill_vs_persistence": 0.501,
+          "auc": 0.961,
+          "calibration_error": 0.071,
+          "at_50pct": {
+            "events": 173,
+            "hit_rate": 0.896,
+            "false_alarm_ratio": 0.055,
+            "csi": 0.852
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 68,
+              "mean_said": 0.047,
+              "happened": 0.074
+            },
+            {
+              "said": "20-40%",
+              "n": 17,
+              "mean_said": 0.279,
+              "happened": 0.471
+            },
+            {
+              "said": "40-60%",
+              "n": 15,
+              "mean_said": 0.496,
+              "happened": 0.533
+            },
+            {
+              "said": "60-80%",
+              "n": 34,
+              "mean_said": 0.712,
+              "happened": 0.941
+            },
+            {
+              "said": "80-100%",
+              "n": 123,
+              "mean_said": 0.954,
+              "happened": 0.976
+            }
+          ]
+        },
+        "poor": {
+          "n": 257,
+          "event_rate": 0.237,
+          "brier_model": 0.0899,
+          "brier_usual_rate": 0.172,
+          "brier_persistence": 0.1518,
+          "skill_vs_usual_rate": 0.477,
+          "skill_vs_usual_rate_ci95": [
+            0.268,
+            0.62
+          ],
+          "skill_vs_persistence": 0.407,
+          "auc": 0.934,
+          "calibration_error": 0.048,
+          "at_50pct": {
+            "events": 61,
+            "hit_rate": 0.82,
+            "false_alarm_ratio": 0.286,
+            "csi": 0.617
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 148,
+              "mean_said": 0.038,
+              "happened": 0.02
+            },
+            {
+              "said": "20-40%",
+              "n": 28,
+              "mean_said": 0.305,
+              "happened": 0.179
+            },
+            {
+              "said": "40-60%",
+              "n": 21,
+              "mean_said": 0.488,
+              "happened": 0.381
+            },
+            {
+              "said": "60-80%",
+              "n": 35,
+              "mean_said": 0.725,
+              "happened": 0.657
+            },
+            {
+              "said": "80-100%",
+              "n": 25,
+              "mean_said": 0.864,
+              "happened": 0.88
+            }
+          ]
+        },
+        "very_poor": {
+          "n": 257,
+          "event_rate": 0.039,
+          "brier_model": 0.0305,
+          "brier_usual_rate": 0.0377,
+          "brier_persistence": 0.0389,
+          "skill_vs_usual_rate": 0.191,
+          "skill_vs_usual_rate_ci95": [
+            -0.269,
+            0.441
+          ],
+          "skill_vs_persistence": 0.216,
+          "auc": 0.833,
+          "calibration_error": 0.009,
+          "at_50pct": {
+            "events": 10,
+            "hit_rate": 0.0,
+            "false_alarm_ratio": 0.0,
+            "csi": 0.0
+          },
+          "reliability": [
+            {
+              "said": "0-20%",
+              "n": 241,
+              "mean_said": 0.025,
+              "happened": 0.021
+            },
+            {
+              "said": "20-40%",
+              "n": 12,
+              "mean_said": 0.308,
+              "happened": 0.25
+            },
+            {
+              "said": "40-60%",
+              "n": 4,
+              "mean_said": 0.445,
+              "happened": 0.5
+            }
+          ]
+        }
+      }
+    }
+  }
+}
