@@ -1,0 +1,437 @@
+{
+  "schema_version": "0.1",
+  "is_sample": true,
+  "town_id": "bhilai",
+  "name": "Bhilai",
+  "state": "Chhattisgarh",
+  "timezone": "Asia/Kolkata",
+  "station": {
+    "station_id": "site_XXXX",
+    "name": "Civic Center, Bhilai",
+    "operator": "Bhilai Steel Plant",
+    "lat": 21.185571,
+    "lon": 81.343175
+  },
+  "plant": {
+    "name": "Plant area",
+    "lat": 21.188,
+    "lon": 81.378,
+    "approximate": true
+  },
+  "school": {
+    "school_id": "school-1",
+    "name": "Demo School",
+    "lat": 21.185,
+    "lon": 81.3615,
+    "starts_at": "08:00",
+    "placeholder": true
+  },
+  "home_area": {
+    "name": "Sector A",
+    "lat": 21.201,
+    "lon": 81.364,
+    "placeholder": true
+  },
+  "travel": {
+    "mode": "walk",
+    "speed_kmh": 4.5
+  },
+  "usual_departure": {
+    "route_id": "plant-gate",
+    "leave": "07:20"
+  },
+  "routes": [
+    {
+      "route_id": "plant-gate",
+      "name": "Plant Gate Rd",
+      "length_m": 2506,
+      "walk_minutes": 33,
+      "segment_ids": [
+        "plant-gate-01",
+        "plant-gate-02",
+        "plant-gate-03",
+        "plant-gate-04",
+        "plant-gate-05",
+        "plant-gate-06"
+      ],
+      "is_usual": true
+    },
+    {
+      "route_id": "station-rd",
+      "name": "Station Rd",
+      "length_m": 2274,
+      "walk_minutes": 30,
+      "segment_ids": [
+        "station-rd-01",
+        "station-rd-02",
+        "station-rd-03",
+        "station-rd-04",
+        "station-rd-05",
+        "station-rd-06"
+      ],
+      "is_usual": false
+    }
+  ],
+  "segments_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "plant-gate-01",
+          "route_id": "plant-gate",
+          "order": 1,
+          "length_m": 418,
+          "distance_to_plant_m": 1842,
+          "bearing_from_plant_deg": 316
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.364,
+              21.201
+            ],
+            [
+              81.36722,
+              21.19875
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "plant-gate-02",
+          "route_id": "plant-gate",
+          "order": 2,
+          "length_m": 387,
+          "distance_to_plant_m": 1445,
+          "bearing_from_plant_deg": 316
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.36722,
+              21.19875
+            ],
+            [
+              81.36928,
+              21.19584
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "plant-gate-03",
+          "route_id": "plant-gate",
+          "order": 3,
+          "length_m": 418,
+          "distance_to_plant_m": 1097,
+          "bearing_from_plant_deg": 307
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.36928,
+              21.19584
+            ],
+            [
+              81.3699,
+              21.19213
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "plant-gate-04",
+          "route_id": "plant-gate",
+          "order": 4,
+          "length_m": 400,
+          "distance_to_plant_m": 979,
+          "bearing_from_plant_deg": 287
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.3699,
+              21.19213
+            ],
+            [
+              81.36804,
+              21.18897
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "plant-gate-05",
+          "route_id": "plant-gate",
+          "order": 5,
+          "length_m": 404,
+          "distance_to_plant_m": 1180,
+          "bearing_from_plant_deg": 269
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.36804,
+              21.18897
+            ],
+            [
+              81.3652,
+              21.18648
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "plant-gate-06",
+          "route_id": "plant-gate",
+          "order": 6,
+          "length_m": 418,
+          "distance_to_plant_m": 1539,
+          "bearing_from_plant_deg": 261
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.3652,
+              21.18648
+            ],
+            [
+              81.3615,
+              21.185
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "station-rd-01",
+          "route_id": "station-rd",
+          "order": 1,
+          "length_m": 379,
+          "distance_to_plant_m": 2084,
+          "bearing_from_plant_deg": 310
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.364,
+              21.201
+            ],
+            [
+              81.36108,
+              21.19895
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "station-rd-02",
+          "route_id": "station-rd",
+          "order": 2,
+          "length_m": 364,
+          "distance_to_plant_m": 2169,
+          "bearing_from_plant_deg": 300
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.36108,
+              21.19895
+            ],
+            [
+              81.35869,
+              21.19656
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "station-rd-03",
+          "route_id": "station-rd",
+          "order": 3,
+          "length_m": 379,
+          "distance_to_plant_m": 2198,
+          "bearing_from_plant_deg": 291
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.35869,
+              21.19656
+            ],
+            [
+              81.3576,
+              21.1933
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "station-rd-04",
+          "route_id": "station-rd",
+          "order": 4,
+          "length_m": 367,
+          "distance_to_plant_m": 2167,
+          "bearing_from_plant_deg": 281
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.3576,
+              21.1933
+            ],
+            [
+              81.35735,
+              21.19001
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "station-rd-05",
+          "route_id": "station-rd",
+          "order": 5,
+          "length_m": 365,
+          "distance_to_plant_m": 2084,
+          "bearing_from_plant_deg": 271
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.35735,
+              21.19001
+            ],
+            [
+              81.35847,
+              21.18691
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "segment_id": "station-rd-06",
+          "route_id": "station-rd",
+          "order": 6,
+          "length_m": 379,
+          "distance_to_plant_m": 1882,
+          "bearing_from_plant_deg": 263
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              81.35847,
+              21.18691
+            ],
+            [
+              81.3615,
+              21.185
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "geometry_note": "Placeholder lines, not real roads. Real runs use OpenStreetMap geometry cut into ~100 m segments, so expect about 20 segments per route.",
+  "bands": [
+    {
+      "id": "good",
+      "label": "Good",
+      "pm25_min": 0,
+      "pm25_max": 30
+    },
+    {
+      "id": "satisfactory",
+      "label": "Satisfactory",
+      "pm25_min": 31,
+      "pm25_max": 60
+    },
+    {
+      "id": "moderate",
+      "label": "Moderate",
+      "pm25_min": 61,
+      "pm25_max": 90
+    },
+    {
+      "id": "poor",
+      "label": "Poor",
+      "pm25_min": 91,
+      "pm25_max": 120
+    },
+    {
+      "id": "very_poor",
+      "label": "Very Poor",
+      "pm25_min": 121,
+      "pm25_max": 250
+    },
+    {
+      "id": "severe",
+      "label": "Severe",
+      "pm25_min": 251,
+      "pm25_max": null
+    }
+  ],
+  "bands_note": "India AQI breakpoints for PM2.5 in ug/m3. Officially defined on 24-hour averages; used here on hourly values as a guide.",
+  "chance_labels": [
+    {
+      "id": "moderate",
+      "pm25_min": 61
+    },
+    {
+      "id": "poor",
+      "pm25_min": 91
+    },
+    {
+      "id": "very_poor",
+      "pm25_min": 121
+    }
+  ],
+  "alert_label": "poor",
+  "exposure_params": {
+    "plume_strength": 0.9,
+    "plume_decay_m": 900,
+    "traffic_strength": {
+      "main": 0.25,
+      "local": 0.08
+    },
+    "traffic_peak": "07:45"
+  },
+  "credits": [
+    "CPCB CAAQM network via India Air Quality Database, XKDR Forum (CC BY 4.0)",
+    "Weather: Open-Meteo (CC BY 4.0)",
+    "Map data: OpenStreetMap contributors"
+  ]
+}

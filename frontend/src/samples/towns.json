@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1",
+  "is_sample": true,
+  "towns": [
+    {
+      "town_id": "bhilai",
+      "name": "Bhilai",
+      "state": "Chhattisgarh",
+      "station": "Civic Center, Bhilai",
+      "has_routes": true,
+      "now": {
+        "time": "2025-01-14T06:00+05:30",
+        "pm25": 88,
+        "pm10": 150,
+        "no2": 38,
+        "so2": 14,
+        "co": 1.1,
+        "band": "moderate"
+      },
+      "official_24h_band": "moderate",
+      "alert_today": true,
+      "status": "ok",
+      "model": {
+        "level": "SHIP",
+        "chance": "USE",
+        "chance_label": "poor"
+      }
+    },
+    {
+      "town_id": "asansol",
+      "name": "Asansol",
+      "state": "West Bengal",
+      "station": "Asansol Court Area, Asansol",
+      "has_routes": false,
+      "now": {
+        "time": "2025-01-14T06:00+05:30",
+        "pm25": 164,
+        "pm10": 261,
+        "no2": 41,
+        "so2": 12,
+        "co": 1.4,
+        "band": "very_poor"
+      },
+      "official_24h_band": "very_poor",
+      "alert_today": null,
+      "status": "ok",
+      "model": {
+        "level": "SHIP",
+        "chance": "USE",
+        "chance_label": "very_poor"
+      }
+    },
+    {
+      "town_id": "visakhapatnam",
+      "name": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "station": "GVM Corporation, Visakhapatnam",
+      "has_routes": false,
+      "now": {
+        "time": "2025-01-14T06:00+05:30",
+        "pm25": 71,
+        "pm10": 122,
+        "no2": 29,
+        "so2": 9,
+        "co": 0.8,
+        "band": "moderate"
+      },
+      "official_24h_band": "moderate",
+      "alert_today": null,
+      "status": "ok",
+      "model": {
+        "level": "SHIP",
+        "chance": "UNPROVEN",
+        "chance_label": "moderate"
+      }
+    }
+  ]
+}

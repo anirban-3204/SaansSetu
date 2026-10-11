@@ -1,0 +1,203 @@
+{
+  "schema_version": "0.1",
+  "is_sample": true,
+  "town_id": "bhilai",
+  "feature_status": "proposed, not yet decided",
+  "period": {
+    "from": "2024-10-01",
+    "to": "2025-02-28",
+    "hours": "06:00-10:00",
+    "hours_used": 2374
+  },
+  "question": "From which wind direction and speed do high PM2.5 hours arrive at the station?",
+  "threshold": {
+    "rule": "top 25% of PM2.5 in the period",
+    "pm25": 134
+  },
+  "polar": {
+    "wind_from_deg_bins": [
+      0,
+      30,
+      60,
+      90,
+      120,
+      150,
+      180,
+      210,
+      240,
+      270,
+      300,
+      330
+    ],
+    "bin_width_deg": 30,
+    "wind_speed_ms_edges": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "probability": [
+      [
+        0.5,
+        0.51,
+        0.61,
+        0.69,
+        0.57,
+        0.51,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        0.2,
+        0.22,
+        0.37,
+        0.5,
+        0.32,
+        0.21,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      [
+        0.1,
+        0.13,
+        0.34,
+        0.51,
+        0.26,
+        0.11,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      [
+        0.07,
+        0.11,
+        0.37,
+        0.58,
+        0.27,
+        0.08,
+        0.07,
+        0.07,
+        0.07,
+        0.07,
+        0.07,
+        0.07
+      ],
+      [
+        0.06,
+        0.1,
+        0.42,
+        0.68,
+        0.3,
+        0.08,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ]
+    ],
+    "count": [
+      [
+        84,
+        108,
+        120,
+        108,
+        84,
+        72,
+        84,
+        108,
+        120,
+        108,
+        84,
+        72
+      ],
+      [
+        45,
+        58,
+        64,
+        58,
+        45,
+        39,
+        45,
+        58,
+        64,
+        58,
+        45,
+        39
+      ],
+      [
+        24,
+        31,
+        34,
+        31,
+        24,
+        21,
+        24,
+        31,
+        34,
+        31,
+        24,
+        21
+      ],
+      [
+        13,
+        17,
+        18,
+        17,
+        13,
+        11,
+        13,
+        17,
+        18,
+        17,
+        13,
+        11
+      ],
+      [
+        7,
+        9,
+        10,
+        9,
+        7,
+        6,
+        7,
+        9,
+        10,
+        9,
+        7,
+        6
+      ]
+    ],
+    "how_to_read": "probability[speed_bin][direction_bin] = share of hours in that cell that were high. Draw as a polar heatmap: angle = wind from, radius = wind speed. Grey out cells with count < 10."
+  },
+  "plant_bearing_from_station_deg": 86,
+  "plant_bearing_label": "E",
+  "top_sector": {
+    "wind_from_deg": [
+      60,
+      120
+    ],
+    "wind_from": "ENE to ESE",
+    "share_of_high_hours": 0.46,
+    "share_of_all_hours": 0.21
+  },
+  "summary": {
+    "en": "46% of high-PM2.5 morning hours arrived with wind from the east-north-east to east-south-east, the direction of the industrial area. That wind blows only 21% of the time.",
+    "hi": "सुबह के 46% अधिक-प्रदूषण वाले घंटों में हवा पूर्व-उत्तर-पूर्व से पूर्व-दक्षिण-पूर्व की ओर से आई, जो औद्योगिक क्षेत्र की दिशा है। यह हवा कुल समय के केवल 21% में चलती है।"
+  },
+  "caveat": "One station plus wind shows direction, not proof of a source."
+}
