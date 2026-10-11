@@ -2,7 +2,7 @@
 
 **Air alerts for the walk to school, one route at a time.**
 
-*SaansSetu* means "breath bridge" in Hindi. It was built for Environmental Hacks (AWS × WeMakeDevs Bharat Builds
+*SaansSetu* was built for Environmental Hacks (AWS × WeMakeDevs Bharat Builds
 Tour, 8–11 October 2026), Air track, by team Axiom: Anirban (ML and backend) and Manideep (dashboard and deployment).
 
 ## The problem
@@ -142,7 +142,7 @@ not something a four-day event allows.
 
 ## Live
 
-- Dashboard: DASHBOARD_URL_HERE
+- Dashboard:  https://main.dad6cxz1027iv.amplifyapp.co
 - API: https://kdjfx4q26zcoy7xgb63c5wge3m0ywzsu.lambda-url.us-east-1.on.aws/towns
 
 The dashboard always has a real morning to show: 7 December 2024 was replayed into the table through the same code
